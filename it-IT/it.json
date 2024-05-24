@@ -157,8 +157,8 @@
         "hint": "Questa fonte di luce conta come una fonte di visione, rivelando aree aggiuntive della Scena anche se non è in linea di vista di un Token controllato."
       },
       "walls": {
-        "label": "Vincolato da Muri",
-        "hint": "Configura se l'area di effetto di questa fonte di luce è vincolata da muri vicini."
+        "label": "Vincolato da Pareti",
+        "hint": "Configura se l'area di effetto di questa fonte di luce è vincolata da pareti vicine."
       }
     },
     "LABELS": {
@@ -210,8 +210,8 @@
         "hint": "Attiva o disattiva temporaneamente questa fonte sonora."
       },
       "walls": {
-        "label": "Vincolato da Muri",
-        "hint": "Configura se l'area di effetto di questa fonte audio è vincolata da muri vicini."
+        "label": "Vincolato da Pareti",
+        "hint": "Configura se l'area di effetto di questa fonte audio è vincolata da pareti vicine."
       },
       "darkness": {
         "label": "Intervallo Attivazione Oscurità",
@@ -235,30 +235,30 @@
         },
         "muffled": {
           "type": {
-            "label": "Effetto Muffled"
+            "label": "Effetto Ovattato"
           },
           "intensity": {
-            "label": "Intensità Effetto Muffled"
+            "label": "Intensità Effetto Ovattato"
           },
-          "hint": "Applica un effetto audio al suono che sostituisce l'effetto base quando il suono è muffled da muri intermedi. Un suono può essere muffled solo se non è vincolato da muri."
+          "hint": "Applica un effetto audio al suono che sostituisce l'effetto base quando il suono è ovattato da pareti intermedie. Un suono può essere ovattato solo se non è vincolato da pareti."
         }
       }
     },
     "SECTIONS": {
-      "SOURCE": "Source",
-      "PLACEMENT": "Placement",
-      "PLACEMENT_HINT": "Configure the origin position, elevation, and radius of the audio source. Elevation is not yet used and is provided only for reference.",
+      "SOURCE": "Sorgente",
+      "PLACEMENT": "Posizionamento",
+      "PLACEMENT_HINT": "Configura la posizione di origine, l'elevazione e il raggio della fonte audio. L'elevazione non è ancora utilizzata ed è fornita solo come riferimento.",
       "VOLUME": "Volume",
-      "ACTIVATION": "Activation",
-      "EFFECTS": "Special Effects"
+      "ACTIVATION": "Attivazione",
+      "EFFECTS": "Effetti Speciali"
     }
   },
 
   "APPLICATION": {
     "TOOLS": {
-      "ControlsMenu": "Application Controls",
-      "ToggleControls": "Toggle Controls",
-      "Close": "Close Window"
+      "ControlsMenu": "Controlli Applicazione",
+      "ToggleControls": "Mostra/Nascondi Controlli",
+      "Close": "Chiudi Finestra"
     }
   },
 
@@ -476,7 +476,7 @@
   "COMPENDIUM.CannotViewWarning": "Non hai le autorizzazioni sufficienti per visualizzare questo pacchetto di Compendio.",
   "COMPENDIUM.OwnershipInheritBelow": "Ereditato da sotto",
   "COMPENDIUM.OwnershipReset": "Ripristina a Predefinito",
-  
+
   "CONTROLS.Title": "Riferimento ai Controlli di Gioco",
   "CONTROLS.NavLabel": "Palette dei Controlli del Canvas",
   "CONTROLS.Instructions": "Questo modulo descrive i comandi comuni da tastiera e mouse utilizzati per controllare vari aspetti dell'ambiente di Foundry Virtual Tabletop. Alcuni controlli sono disponibili solo per l'utente Game Master, che sono evidenziati in viola chiaro.",
@@ -515,30 +515,30 @@
   "CONTROLS.DrawingClear": "Cancella Disegni",
   "CONTROLS.DrawingConfig": "Configura Disegno",
   "CONTROLS.DrawingRole": "Attiva/Disattiva Disegni Informativi",
-  "CONTROLS.GroupWall": "Controlli delle Mura",
-  "CONTROLS.WallDraw": "Disegna Mura",
-  "CONTROLS.WallBasic": "Mura di Base",
+  "CONTROLS.GroupWall": "Controlli delle Pareti",
+  "CONTROLS.WallDraw": "Disegna Pareti",
+  "CONTROLS.WallBasic": "Pareti di Base",
   "CONTROLS.WallBasicBlocks": "Movimento, visione e udito",
-  "CONTROLS.WallInvisible": "Mura Invisibili",
+  "CONTROLS.WallInvisible": "Pareti Invisibili",
   "CONTROLS.WallInvisibleBlocks": "Movimento",
-  "CONTROLS.WallTerrain": "Mura di Terreno",
-  "CONTROLS.WallTerrainBlocks": "Visuale oltre la seconda muraglia, movimento e udito",
-  "CONTROLS.WallEthereal": "Mura Eteree",
+  "CONTROLS.WallTerrain": "Pareti di Terreno",
+  "CONTROLS.WallTerrainBlocks": "Visuale oltre la seconda paretiglia, movimento e udito",
+  "CONTROLS.WallEthereal": "Pareti Eteree",
   "CONTROLS.WallEtherealBlocks": "Visuale e udito",
   "CONTROLS.WallDoors": "Disegna Porte",
   "CONTROLS.DoorBlocks": "Movimento, visione e udito a meno che non siano aperte",
   "CONTROLS.WallSecret": "Porte Segrete",
   "CONTROLS.WallSecretHidden": "Nascoste",
   "CONTROLS.WallSecretHiddenP": "Le Porte Segrete non possono essere viste dai giocatori",
-  "CONTROLS.WallSelect": "Seleziona Mura Rettangolari",
+  "CONTROLS.WallSelect": "Seleziona Pareti Rettangolari",
   "CONTROLS.CommonMoveWithoutSnapping": "Sposta Senza Aggancio",
   "CONTROLS.WallSelectEdit": "<span class=\"reference\">Doppio Clic</span>",
-  "CONTROLS.WallSnapP": "I punti delle mura si agganciano al vertice della griglia più vicino quando è attivo",
-  "CONTROLS.WallClone": "Clona Mura",
+  "CONTROLS.WallSnapP": "I punti delle pareti si agganciano al vertice della griglia più vicino quando è attivo",
+  "CONTROLS.WallClone": "Clona Pareti",
   "CONTROLS.WallCloseDoors": "Chiudi tutte le Porte",
   "CONTROLS.WallDoorsClosed": "{number} porte chiuse",
-  "CONTROLS.WallClear": "Cancella Mura",
-  "CONTROLS.WallWindow": "Mura Finestrate",
+  "CONTROLS.WallClear": "Cancella Pareti",
+  "CONTROLS.WallWindow": "Pareti Finestrate",
   "CONTROLS.WallWindowBlocks": "Visuale, movimento e udito oltre una certa distanza",
   "CONTROLS.GroupLighting": "Controlli dell'Illuminazione",
   "CONTROLS.LightDraw": "Disegna Sorgente di Luce",
@@ -668,8 +668,8 @@
   "CONTROLS.TokenPlaceHiddenCreate": "durante la creazione di un Token.",
   "CONTROLS.TooltipDismiss": "Ignora tooltip bloccato",
   "CONTROLS.TooltipLock": "Blocca tooltip",
-  "CONTROLS.WallHeader": "Controlli Livello Muri",
-  "CONTROLS.WallChain": "Creazione Catena Muri",
+  "CONTROLS.WallHeader": "Controlli Livello Pareti",
+  "CONTROLS.WallChain": "Creazione Catena Pareti",
   "CONTROLS.WallSelectChain": "Seleziona Segmenti Collegati",
   "CONTROLS.DrawingHeader": "Controlli Strumento Disegno",
   "CONTROLS.DrawingTextConfirm": "Conferma Testo Disegno",
@@ -798,8 +798,8 @@
   "DOCUMENT.Tokens": "Token",
   "DOCUMENT.User": "Utente",
   "DOCUMENT.Users": "Utenti",
-  "DOCUMENT.Wall": "Muro",
-  "DOCUMENT.Walls": "Muri",
+  "DOCUMENT.Wall": "Parete",
+  "DOCUMENT.Walls": "Pareti",
   "DOCUMENT.TypePageFormat": "{type} {page}",
 
   "DRAWING.ConfigDefaultTitle": "Configurazione Disegno Predefinita",
@@ -2252,7 +2252,7 @@
   "PERMISSION.TokenConfigure": "Configura Impostazioni Token",
   "PERMISSION.TokenConfigureHint": "Consenti agli Utenti con questo ruolo di configurare le impostazioni per i Token di loro proprietà.",
   "PERMISSION.WallDoors": "Apri e Chiudi Porte",
-  "PERMISSION.WallDoorsHint": "Consenti agli Utenti con questo ruolo di interagire con le porte definite sul Livello delle Mura.",
+  "PERMISSION.WallDoorsHint": "Consenti agli Utenti con questo ruolo di interagire con le porte definite sul Livello delle Pareti.",
   "PERMISSION.WarningNoCreate": "Non hai i permessi sufficienti per creare un {document}.",
 
   "REGION": {
@@ -2297,7 +2297,7 @@
       "create": "Crea Regione",
       "update": "Aggiorna Regione",
       "delete": "Elimina Regione",
-      "shapeCreateFromWalls": "Crea Forme da Mura Controllate",
+      "shapeCreateFromWalls": "Crea Forme da Pareti Controllate",
       "shapeMakeHole": "Crea Buco",
       "shapeFillHole": "Riempi Buco",
       "shapeMoveUp": "Sposta Forma in Alto",
@@ -2383,10 +2383,10 @@
       "title": "Configura Regione"
     },
     "NOTIFICATIONS": {
-      "ControlWalls": "Controlla un gruppo di mura che definiscono il confine della forma desiderata.",
+      "ControlWalls": "Controlla un gruppo di pareti che definiscono il confine della forma desiderata.",
       "DrawingMultipleRegionsControlled": "Devi controllare una sola o nessuna Regione quando disegni una forma!",
-      "EmptyEnclosedArea": "L'area racchiusa dalle Mura controllate è vuota! Assicurati che le Mura esterne formino un loop chiuso e siano collegate estremità a estremità.",
-      "NoControlledWalls": "Non stai controllando nessuna Murale!"
+      "EmptyEnclosedArea": "L'area racchiusa dalle Pareti controllate è vuota! Assicurati che le Pareti esterne formino un loop chiuso e siano collegate estremità a estremità.",
+      "NoControlledWalls": "Non stai controllando nessuna Paretile!"
     }
   },
 
