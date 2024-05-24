@@ -1,37 +1,45 @@
 {
-  "id": "translation-core-it",
-  "title": "Core Italian Translation",
-  "description": "Add Italian language to FoundryVTT core.",
+  "name": "translation-core-it",
+  "title": "FoundryVTT Italian Translation",
+  "description": "Traduzione italiana per FoundryVTT",
+
   "version": "2.0.0",
+  "minimumCoreVersion": "10.291",
+  "compatibleCoreVersion": 12,
   "compatibility": {
-    "minimum": "11",
-    "verified": "12.311",
-    "maximum": "11"
+    "minimum": 10,
+    "verified": 12
   },
+  "authors": [
+    {
+      "name": "bertolinimarco"
+    }
+  ],
+
   "coreTranslation": true,
 
-  "authors": [{
-    "name": "bertolinimarco",
-    "discord": "devberto"
-  }],
+  "dependencies": [
+    {
+      "name": "babele",
+      "type": "module"
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/translation-core-it/media/cover.webp",
+      "thumbnail": "modules/translation-core-it/media/cover.webp"
+    }
+  ],
 
-  "scripts": [],
-  "styles": [],
-  "packs": [],
-    
-  "languages": [{
-  	"lang": "it",
-    "name": "Italian",
-    "path": "it.json"
-  }],
-
-  "media": [{
-    "type": "setup",
-    "url": "modules/translation-core-it/media/cover.webp",
-    "thumbnail": "modules/translation-core-it/media/cover.webp"
-  }],
-    
-  "url": "https://github.com/bertolinimarco/foundryvtt-lang-it-it",
-  "manifest": "https://github.com/bertolinimarco/foundryvtt-lang-it-it/raw/master/it-IT/module.json",
-  "download": "https://github.com/bertolinimarco/foundryvtt-lang-it-it/-/jobs/artifacts/0.33/raw/it-IT.zip?job=build"
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italian",
+      "path": "it.json"
+    }
+  ],
+  "url": "https://github.com/bertolinimarco/foundryvtt-dnd5e-lang-it-it",
+  "manifest": "https://raw.githubusercontent.com/bertolinimarco/foundryvtt-dnd5e-lang-it-it/main/it-IT/module.json",
+  "download": "https://github.com/bertolinimarco/foundryvtt-dnd5e-lang-it-it/archive/master.zip"
 }
