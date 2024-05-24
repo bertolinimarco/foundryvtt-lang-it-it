@@ -374,9 +374,9 @@
   "CHAT.InvalidCommand": "{command} non è un comando di chat valido.",
   "CHAT.Title": "Registro Chat",
   "CHAT.To": "A",
-  "CHAT.PopoutMessage": "Apri Messaggio in una Finestra Separata",
-  "CHAT.RevealMessage": "Rivelare a Tutti",
-  "CHAT.ConcealMessage": "Rendere Privato",
+  "CHAT.PopoutMessage": "Apri in una Finestra Separata",
+  "CHAT.RevealMessage": "Rivela a Tutti",
+  "CHAT.ConcealMessage": "Rendi Privato",
   "CHAT.RollVisibility": "Visibilità dei Tiri",
   "CHAT.RollBlind": "Tiro del GM in Segreto",
   "CHAT.RollDefault": "Modalità di Tiro Predefinita",
@@ -1092,10 +1092,10 @@
   "HUD.Elevation": "Elevazione",
   "HUD.OpenConfig": "Apri Configurazione",
   "HUD.AssignStatusEffects": "Assegna Effetti di Stato",
-  "HUD.ToggleTargetState": "Attiva/Disattiva Stato Bersaglio",
-  "HUD.ToggleCombatState": "Attiva/Disattiva Stato Combattimento",
-  "HUD.ToggleVis": "Attiva/Disattiva Stato Visibilità",
-  "HUD.ToggleLock": "Attiva/Disattiva Stato Bloccato",
+  "HUD.ToggleTargetState": "Attiva/Disattiva Bersaglio",
+  "HUD.ToggleCombatState": "Attiva/Disattiva Combattimento",
+  "HUD.ToggleVis": "Attiva/Disattiva Visibilità",
+  "HUD.ToggleLock": "Attiva/Disattiva Blocco",
   "HUD.ToFront": "Porta in Primo Piano",
   "HUD.ToBack": "Porta in Secondo Piano",
   "HUD.TilePlay": "Riproduci Video Tile",
@@ -2115,9 +2115,9 @@
 
   "JOIN": {
     "CurrentPlayers": "Giocatori Attuali",
-    "HeaderJoin": "Unisciti alla Sessione di Gioco",
-    "HeaderDetails": "Dettagli di Gioco",
-    "HeaderWorld": "Descrizione del Mondo",
+    "HeaderJoin": "Unisciti alla Sessione",
+    "HeaderDetails": "Dettagli",
+    "HeaderWorld": "Descrizione",
     "NextSession": "Prossima Sessione",
     "SelectUser": "Seleziona Utente",
     "UserKey": "Password Utente",
@@ -2126,7 +2126,7 @@
     "ErrorUserDoesNotExist": "L'utente richiesto, \"{user}\", non esiste!",
     "ErrorInvalidPassword": "Password non valida fornita per {user}!",
     "ErrorBanned": "{user} non ha il permesso di accedere a questo Mondo!",
-    "LoginSuccess": "Accesso come {user} riuscito, unendosi al gioco!"
+    "LoginSuccess": "Accesso come {user} riuscito, inziamo!"
   },
 
   "SHEETS.ConfigureSheet": "Configura Scheda",
@@ -2817,7 +2817,7 @@
   "TOKEN.Adjectives.zen": "Zen",
 
   "TOKEN.SightNavLabel": "Configurazione della vista",
-  "TOKEN.SightHeaderBasic": "Configurazione di base",
+  "TOKEN.SightHeaderBasic": "Configurazione Base",
   "TOKEN.SightHeaderAdvanced": "Opzioni avanzate",
   "TOKEN.SightHeaderDetection": "Modalità di rilevamento",
   "TOKEN.DetectionMode": "Modalità di rilevamento",
