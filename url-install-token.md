@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/bertolinimarco/foundryvtt-lang-it-it/main/it-IT/module.json?token=GHSAT0AAAAAAB4KNZ7OGW7IHYR4V6XQFX2EZSQJCGA
