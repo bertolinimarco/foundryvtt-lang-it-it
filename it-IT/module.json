@@ -2,7 +2,7 @@
   "id": "translation-core-it",
   "title": "FoundryVTT Italian Translation (Fork)",
   "description": "Fork della traduzione italiana per FoundryVTT",
-  "version": "0.0.2",
+  "version": "0.0.2a",
   "compatibility": {
     "minimum": 10,
     "verified": 12
