@@ -1,6 +1,6 @@
 # FoundryVTT lang it-IT
 
-Questo modulo è una traduzione in italiano di FoundryVTT.
+Questo modulo è una traduzione in italiano del software FoundryVTT.
 
 ## Installazione
 
@@ -9,14 +9,6 @@ Per installare il modulo, copia il seguente URL e incollalo nella casella di ins
 ```text
 https://raw.githubusercontent.com/bertolinimarco/foundryvtt-lang-it-it/main/it-IT/module.json
 ```
-
-## Contribuire
-
-Se vuoi contribuire alla traduzione, puoi farlo in due modi:
-
-- Aprire una issue con la tua proposta di traduzione
-- Forkare il repository, fare le modifiche e aprire una pull request
-- Contattarmi su Discord (devberto)
 
 ## Crediti
 
