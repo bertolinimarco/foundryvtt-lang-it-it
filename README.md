@@ -1,6 +1,9 @@
 # FoundryVTT lang it-IT
 
 Questo modulo è una traduzione in italiano del software FoundryVTT.
+Riprende la traduzione originale di [Simone Ricciardi](https://gitlab.com/riccisi/foundryvtt-lang-it-it) e la community di [FoundryVTT italiana](https://ptb.discord.com/channels/170995199584108546/1137106031978229871/1137114202708901908), con l'aggiunta di nuove traduzioni e miglioramenti.
+
+Si cerca di preservare il senso originale del testo, mantenendo la coerenza e la fluidità della lingua italiana, adattandola all'interfaccia, senza l'utilizzo di AI.
 
 ## Installazione
 
