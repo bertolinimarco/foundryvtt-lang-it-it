@@ -1024,16 +1024,16 @@
   "DRAWING.RoleHint": "Un Disegno che rappresenta un \"Oggetto\" viene visualizzato nel Gruppo Canvas Primario ed è influenzato dall'illuminazione e dall'esplorazione della nebbia di guerra. Un Disegno che trasmette \"Informazioni\" viene visualizzato nel Gruppo Interfaccia ed è visibile a tutti i giocatori a meno che non sia nascosto.",
   "DRAWING.Object": "Oggetto",
   "DRAWING.Information": "Informazione",
-  "DRAWING.JointValidationError": "Drawings must have visible text, a visible fill, or a visible line.",
-  "DRAWING.JointValidationErrorUI": "Drawings must have visible text, a visible fill, or a visible line. Please check the default Drawings configuration settings.",
+  "DRAWING.JointValidationError": "I disegni devono avere un testo visibile, un riempimento visibile o una linea visibile.",
+  "DRAWING.JointValidationErrorUI": "I disegni devono avere un testo visibile, un riempimento visibile o una linea visibile. Controlla le impostazioni di configurazione predefinite dei disegni.",
   "DRAWING.TABS": {
-    "position": "Position",
-    "lines": "Lines",
-    "fill": "Fill",
-    "text": "Text"
+    "position": "Posizione",
+    "lines": "Linee",
+    "fill": "Riempimento",
+    "text": "Testo"
   },
   "DRAWING.FIELDS": {
-    "sort.label": "Sort"
+    "sort.label": "Ordinamento"
   },
   "EFFECT.MODE_CUSTOM": "Personalizzato",
   "EFFECT.MODE_MULTIPLY": "Moltiplica",
@@ -1048,7 +1048,7 @@
   "EFFECT.ChangeKey": "Chiave Attributo",
   "EFFECT.ChangeMode": "Cambia Modalità",
   "EFFECT.ChangeValue": "Valore Effetto",
-  "EFFECT.ChangePriority": "Priority",
+  "EFFECT.ChangePriority": "Priorità",
   "EFFECT.Submit": "Invia Modifiche",
   "EFFECT.FIELDS": {
     "name.label": "Nome Effetto",
