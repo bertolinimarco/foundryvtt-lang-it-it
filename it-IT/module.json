@@ -1,8 +1,8 @@
 {
   "id": "translation-core-it",
-  "title": "FoundryVTT Italian Translation (Fork)",
-  "description": "Fork della traduzione italiana per FoundryVTT",
-  "version": "13.347b",
+  "title": "FVTT Core Italian Translation",
+  "description": "Traduzione italiana per FoundryVTT",
+  "version": "13.347c",
   "compatibility": {
     "minimum": 13,
     "verified": 13
@@ -12,9 +12,7 @@
       "name": "bertolinimarco"
     }
   ],
-
   "coreTranslation": true,
-
   "media": [
     {
       "type": "setup",
