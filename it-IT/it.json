@@ -606,21 +606,21 @@
     "TargetedBy": "Bersagliato da {list}",
     "ToggleTargeting": "Attiva/Disattiva Bersaglio"
   },
-  "COMPENDIUM.Name": "Nome Compendium",
-  "COMPENDIUM.Create": "Nuovo Compendium",
-  "COMPENDIUM.CreateHint": "Crea un nuovo Compendium nell'attuale Mondo Di Gioco.",
+  "COMPENDIUM.Name": "Nome Compendio",
+  "COMPENDIUM.Create": "Nuovo Compendio",
+  "COMPENDIUM.CreateHint": "Crea un nuovo Compendio nell'attuale Mondo Di Gioco.",
   "COMPENDIUM.FilterDocuments": "Filtra Documenti per Tipo",
   "COMPENDIUM.ClearFilters": "Rimuovi Filtri",
-  "COMPENDIUM.Delete": "Elimina Compendium",
+  "COMPENDIUM.Delete": "Elimina Compendio",
   "COMPENDIUM.DeleteEntry": "Elimina Voce",
-  "COMPENDIUM.Duplicate": "Duplica Compendium",
-  "COMPENDIUM.ErrorRequireTitle": "Devi fornire un titolo per creare un Compendium..",
+  "COMPENDIUM.Duplicate": "Duplica Compendio",
+  "COMPENDIUM.ErrorRequireTitle": "Devi fornire un titolo per creare un Compendio..",
   "COMPENDIUM.ImportAll": "Importa Tutto il Contenuto",
   "COMPENDIUM.ImportEntry": "Importa Voce",
   "COMPENDIUM.Locked": "{title} [Bloccato]",
   "COMPENDIUM.Migration": {
-    "Begin": "Inizio la migrazione per il pacchetto Compendium {collection}, attendere.",
-    "Complete": "Migrazione del pacchetto Compendium {collection} completata con successo."
+    "Begin": "Inizio la migrazione per il pacchetto Compendio {collection}, attendere.",
+    "Complete": "Migrazione del pacchetto Compendio {collection} completata con successo."
   },
   "COMPENDIUM.SidebarTitle": "Compendi",
   "COMPENDIUM.Type": "Tipo Documento",
@@ -2530,59 +2530,59 @@
     }
   },
   "THEME.foundry": "Foundry Virtual Tabletop",
-  "THEME.fantasy": "Classic Fantasy",
-  "THEME.scifi": "Science Fiction",
+  "THEME.fantasy": "Fantasy Classico",
+  "THEME.scifi": "Sci-Fi",
   "PACKAGE": {
     "Type": {
-      "world": "World",
-      "worldPl": "Worlds",
-      "system": "System",
-      "systemPl": "Systems",
-      "module": "Module",
-      "modulePl": "Modules",
-      "allPl": "All"
+      "world": "Mondo",
+      "worldPl": "Mondi",
+      "system": "Sistema",
+      "systemPl": "Sistemi",
+      "module": "Modulo",
+      "modulePl": "Moduli",
+      "allPl": "Tutti"
     },
-    "Create": "Create Package",
+    "Create": "Crea Pacchetto",
     "Compatibility": {
-      "Label": "Compatibility",
-      "Hint": "You may optionally indicate that this package is compatible only with a range of Foundry Virtual Tabletop software versions. Compatibility can be declared for a specific build version like \"13.339\" or for a broad generation like \"13\"."
+      "Label": "Compatibilità",
+      "Hint": "Puoi indicare facoltativamente che questo pacchetto è compatibile solo con un intervallo di versioni del software Foundry Virtual Tabletop. La compatibilità può essere dichiarata per una versione di build specifica come \"13.339\" o per una versione maggiore come \"13\"."
     },
     "TagJavaScript": "JavaScript",
     "TagCSS": "CSS",
-    "TagCompendium": "Compendium",
-    "TagLocalization": "Localization",
-    "TagVersion": "Version",
-    "TagCoreVersion": "Core Version",
-    "TagUnavailable": "Unavailable",
-    "GetPackagesTimedOut": "Retrieving packages timed out",
-    "PackageInstallTimedOut": "Package installation timed out",
-    "UpdateCheckTimedOut": "Update check timed out",
-    "WarmCacheTimedOut": "Warming package cache timed out",
-    "Lock": "Lock {type}",
-    "Locked": "Locked",
-    "Unlock": "Unlock {type}",
-    "Unlocked": "Unlocked",
-    "Favorite": "Mark Favorite",
-    "Unfavorite": "Remove Favorite",
-    "InstallFailed": "Errors were encountered while installing the package. Consult your console log (F12) for details.",
-    "UninstallLocked": "You may not uninstall the {type} \"{id}\" because it is locked.",
-    "LaunchLocked": "You may not launch the World \"{id}\" because it is locked.",
-    "AlreadyUpdated": "{name} is already up to date.",
-    "AllUpdated": "All {type} are up to date!",
-    "UpdateAllInProgress": "An \"update all\" workflow is already in progress. You must wait for it to complete before updating other package types.",
-    "ModuleCreate": "Create Module",
-    "ModuleCreateHint": "You can use this form to create a Module which can be shared across multiple Worlds or packaged for distribution to other users. This form supports a subset of possible package configuration. You will be able to further manage and edit your package after creating it by modifying its JSON manifest file.",
-    "ModuleCreateSuccess": "Created new Module \"{id}\", which is now available to use!",
-    "ModuleCreateErrorAlreadyExists": "The Module \"{id}\" already exists! Choose a different package identifier.",
-    "ConfigTitle": "Module: {module}",
-    "NewModuleTitle": "My New Module",
-    "ModuleEdit": "Edit Module",
-    "ModuleEditHint": "You can use this form to update properties of your Module manifest data.",
-    "ModuleEditWarning": "You are editing package manifest data for an installable module. Changes made to this data have the possibility to break functionality or ability of the module to be further updated. Please proceed with caution.",
-    "ModuleEditSuccess": "Modified Module \"{id}\" package manifest data.",
+    "TagCompendium": "Compendio",
+    "TagLocalization": "Localizzazione",
+    "TagVersion": "Versione",
+    "TagCoreVersion": "Versione Core",
+    "TagUnavailable": "Non Disponibile",
+    "GetPackagesTimedOut": "Il recupero dei pacchetti è scaduto",
+    "PackageInstallTimedOut": "Il timeout dell'installazione del pacchetto è scaduto",
+    "UpdateCheckTimedOut": "Il timeout del controllo degli aggiornamenti è scaduto",
+    "WarmCacheTimedOut": "Il timeout del riscaldamento della cache dei pacchetti è scaduto",
+    "Lock": "Blocca {type}",
+    "Locked": "Bloccato",
+    "Unlock": "Sblocca {type}",
+    "Unlocked": "Sbloccato",
+    "Favorite": "Segna come Preferito",
+    "Unfavorite": "Rimuovi dai Preferiti",
+    "InstallFailed": "Si sono verificati errori durante l'installazione del pacchetto. Controlla il registro della console (F12) per ulteriori dettagli.",
+    "UninstallLocked": "Non puoi disinstallare il {type} \"{id}\" perché è bloccato.",
+    "LaunchLocked": "Non puoi avviare il Mondo \"{id}\" perché è bloccato.",
+    "AlreadyUpdated": "{name} è già aggiornato.",
+    "AllUpdated": "Tutti i {type} sono aggiornati!",
+    "UpdateAllInProgress": "Un flusso di lavoro \"aggiorna tutto\" è già in corso. Devi attendere il completamento prima di aggiornare altri tipi di pacchetti.",
+    "ModuleCreate": "Crea Modulo",
+    "ModuleCreateHint": "Puoi utilizzare questo modulo per creare un Modulo che può essere condiviso tra più Mondi o impacchettato per la distribuzione ad altri utenti. Questo modulo supporta un sottoinsieme della possibile configurazione del pacchetto. Sarai in grado di gestire e modificare ulteriormente il tuo pacchetto dopo averlo creato modificando il suo file di manifesto JSON.",
+    "ModuleCreateSuccess": "Creato nuovo Modulo \"{id}\", ora disponibile per l'uso!",
+    "ModuleCreateErrorAlreadyExists": "Il Modulo \"{id}\" esiste già! Scegli un identificatore di pacchetto diverso.",
+    "ConfigTitle": "Modulo: {module}",
+    "NewModuleTitle": "Il Mio Nuovo Modulo",
+    "ModuleEdit": "Modifica Modulo",
+    "ModuleEditHint": "Puoi utilizzare questo modulo per aggiornare le proprietà dei dati del manifesto del tuo Modulo.",
+    "ModuleEditWarning": "Stai modificando i dati del manifesto del pacchetto per un modulo installabile. Le modifiche apportate a questi dati hanno la possibilità di compromettere la funzionalità o la capacità del modulo di essere ulteriormente aggiornato. Procedi con cautela.",
+    "ModuleEditSuccess": "Modificati i dati del manifesto del Modulo \"{id}\".",
     "Relationship": {
-      "Package": "Related Package",
-      "Category": "Relationship Category"
+      "Package": "Pacchetto Correlato",
+      "Category": "Categoria Relazione"
     },
     "Relationships": {
       "Systems": "Game System",
@@ -2596,80 +2596,80 @@
       "DETAILS": "Details View"
     },
     "ACTIONS": {
-      "AddAuthor": "Add Author",
-      "RemoveAuthor": "Remove Author",
-      "AddPack": "Add Compendium Pack",
-      "RemovePack": "Remove Compendium Pack",
-      "AddRelationship": "Add Relationship",
-      "RemoveRelationship": "Remove Relationship"
+      "AddAuthor": "Aggiungi Autore",
+      "RemoveAuthor": "Rimuovi Autore",
+      "AddPack": "Aggiungi Pacchetto Compendio",
+      "RemovePack": "Rimuovi Pacchetto Compendio",
+      "AddRelationship": "Aggiungi Relazione",
+      "RemoveRelationship": "Rimuovi Relazione"
     },
     "TABS": {
-      "basics": "Basic Details",
-      "authors": "Authors",
-      "packs": "Compendium Packs",
-      "relationships": "Relationships"
+      "basics": "Dettagli di Base",
+      "authors": "Autori",
+      "packs": "Pacchetti Compendio",
+      "relationships": "Relazioni"
     },
     "FIELDS": {
       "id": {
-        "label": "Package Identifier",
-        "hint": "The identifier must be a unique alphanumeric string with no special characters other than hyphens."
+        "label": "Identificatore Pacchetto",
+        "hint": "L'identificatore deve essere una stringa alfanumerica unica senza caratteri speciali diversi dai trattini."
       },
       "title": {
-        "label": "Package Title",
-        "hint": "The title is human readable and may contain special characters."
+        "label": "Titolo Pacchetto",
+        "hint": "Il titolo è leggibile dall'uomo e può contenere caratteri speciali."
       },
       "version": {
-        "label": "Package Version",
-        "hint": "The version field identifies a specific iteration of this package. Supported version schemes allow for strings or numbers separated by periods."
+        "label": "Versione Pacchetto",
+        "hint": "Il campo versione identifica una specifica iterazione di questo pacchetto. Gli schemi di versione supportati consentono stringhe o numeri separati da punti."
       },
       "description": {
-        "label": "Package Description",
-        "hint": "A plain text or HTML description that explains the purpose and contents of this package."
+        "label": "Descrizione Pacchetto",
+        "hint": "Una descrizione in testo semplice o HTML che spiega lo scopo e i contenuti di questo pacchetto."
       },
       "url": {
-        "label": "Package URL",
-        "hint": "A website URL where more details about this package can be discovered."
+        "label": "URL Pacchetto",
+        "hint": "Un URL di un sito web dove è possibile scoprire ulteriori dettagli su questo pacchetto."
       },
       "authors": {
         "element": {
-          "name.label": "Author Name",
-          "discord.label": "Discord Username",
-          "email.label": "Email Address",
-          "url.label": "Website URL"
+          "name.label": "Nome Autore",
+          "discord.label": "Nome Utente Discord",
+          "email.label": "Indirizzo Email",
+          "url.label": "URL Sito Web"
         }
       },
       "packs": {
         "element": {
           "name": {
-            "label": "Name",
-            "hint": "A unique alphanumeric string with no special characters that identifies the compendium pack.",
-            "disabledHint": "You cannot change this compendium pack name because it already exists."
+            "label": "Nome",
+            "hint": "Una stringa alfanumerica unica senza caratteri speciali che identifica il pacchetto compendio.",
+            "disabledHint": "Non puoi cambiare il nome di questo pacchetto compendio perché esiste già."
           },
-          "label.label": "Label",
-          "type.label": "Document Type",
+          "label.label": "Etichetta",
+          "type.label": "Tipo Documento",
           "system": {
-            "label": "Required System",
-            "hint": "Actor, Item, or Adventure compendium packs (which contain Actors or Items) must declare which specific game system they are designed for."
+            "label": "Sistema Richiesto",
+            "hint": "I pacchetti compendio di attori, oggetti o avventure (che contengono attori o oggetti) devono dichiarare per quale specifico sistema di gioco sono progettati."
           }
         }
       },
       "compatibility": {
-        "minimum.label": "Minimum Version",
-        "verified.label": "Verified Version",
-        "maximum.label": "Maximum Version"
+        "minimum.label": "Versione Minima",
+        "verified.label": "Versione Verificata",
+        "maximum.label": "Versione Massima"
       },
-      "dataPath.label": "Data Path"
+      "dataPath.label": "Percorso Dati"
     }
   },
   "PACKAGECONFIG": {
-    "All": "All",
-    "Reset": "Reset Defaults",
-    "Filter": "Filter",
+    "All": "Tutti",
+    "Reset": "Ripristina Impostazioni",
+    "Filter": "Filtra",
     "Core": "Core",
-    "Unmapped": "Unmapped",
+    "Unmapped": "Non Mappato",
     "TABS": {
       "core": "Core",
-      "unmapped": "Unmapped"
+      "unmapped": "Non Mappato"
     }
   },
   "JOIN": {
@@ -2717,7 +2717,7 @@
   "FOLDER.DeleteName": "Delete All: {name}",
   "FOLDER.DeleteWarning": "Questa cartella e il suo contenuto verranno eliminati definitivamente e non potranno essere recuperati.",
   "FOLDER.Edit": "Modifica Cartella",
-  "FOLDER.Export": "Esporta in un Compendium",
+  "FOLDER.Export": "Esporta in un Compendio",
   "FOLDER.Remove": "Rimuovi Cartella",
   "FOLDER.RemoveName": "Remove Folder: {name}",
   "FOLDER.RemoveWarning": "Questa cartella verrà eliminata definitivamente e il suo contenuto verrà spostato nella cartella principale.",
@@ -2725,13 +2725,13 @@
   "FOLDER.SortManual": "Manuale",
   "FOLDER.Update": "Aggiorna Cartella",
   "FOLDER.ExportTitle": "Esporta Contenuto",
-  "FOLDER.ExportHint": "È possibile esportare i Documenti contenuti in questa cartella in un Compendium sbloccato del tipo appropriato.",
+  "FOLDER.ExportHint": "È possibile esportare i Documenti contenuti in questa cartella in un Compendio sbloccato del tipo appropriato.",
   "FOLDER.ExportOptions": "Opzioni Esportazione",
-  "FOLDER.ExportDestination": "Compendium di Destinazione",
+  "FOLDER.ExportDestination": "Compendio di Destinazione",
   "FOLDER.ExportKeepId": "Conservare gli ID dei Documenti?",
   "FOLDER.ExportMerge": "Unisci per Nome?",
   "FOLDER.ExportKeepFolders": "Mantenere Struttura delle Cartella?",
-  "FOLDER.ExportWarningNone": "Non sono disponibili compendium sbloccati per i Documenti di tipo {type} in cui puoi esportare.",
+  "FOLDER.ExportWarningNone": "Non sono disponibili Compendi sbloccati per i Documenti di tipo {type} in cui puoi esportare.",
   "FOLDER.ExportExistingFolder": "Cartella Esistente",
   "FOLDER.ExportNewFolder": "Nuova Cartella",
   "FOLDER.Exporting": "Esportazione in corso dei documenti di tipo {type} nel Compendio {compendium}.",
@@ -3062,7 +3062,7 @@
   "SIDEBAR.Import": "Importa Dati",
   "SIDEBAR.NavLabel": "Schede Barra Laterale",
   "SIDEBAR.TabJournal": "Diario",
-  "SIDEBAR.TabCompendium": "Compendium",
+  "SIDEBAR.TabCompendium": "Compendio",
   "SIDEBAR.TabSettings": "Impostazioni di Gioco",
   "SIDEBAR.TabTables": "Tabelle Dinamiche",
   "SIDEBAR.TokenArt": "Mostra Immagine Token",
@@ -3087,7 +3087,7 @@
     "Actor": "Crea Attore",
     "Adventure": "Crea Avventura",
     "Cards": "Crea Mazzo di Carte",
-    "Compendium": "Crea Compendium",
+    "Compendium": "Crea Compendio",
     "Folder": "Crea Cartella",
     "Item": "Crea Oggetto",
     "JournalEntry": "Crea Voce",
@@ -3139,85 +3139,85 @@
     "Viewport": "Dimensioni Viewport",
     "Dimensions": "{width} × {height}",
     "GPU": "GPU",
-    "MaxTextureSize": "Max Texture Size",
-    "LargestTexture": "Largest Texture",
-    "NoDocumentIssues": "No document issues were found.",
-    "NoClientIssues": "No client issues were found.",
-    "NoModuleIssues": "No module issues were found.",
-    "NoViewedScene": "No viewed scene",
-    "ModuleSubTypesUnavailableName": "<strong>{count}</strong> {document} are unavailable because the '{name}' module is inactive",
-    "ModuleSubTypesUnavailableNoName": "<strong>{count}</strong> {document} are unavailable because a module with the ID '{name}' is inactive",
+    "MaxTextureSize": "Dimensione Massima Texture",
+    "LargestTexture": "Texture Più Grande",
+    "NoDocumentIssues": "Nessun problema di documento trovato.",
+    "NoClientIssues": "Nessun problema client trovato.",
+    "NoModuleIssues": "Nessun problema di modulo trovato.",
+    "NoViewedScene": "Nessuna scena visualizzata",
+    "ModuleSubTypesUnavailableName": "<strong>{count}</strong> {document} non sono disponibili perché il modulo '{name}' è inattivo",
+    "ModuleSubTypesUnavailableNoName": "<strong>{count}</strong> {document} non sono disponibili perché un modulo con l'ID '{name}' è inattivo",
     "UnavailableDocuments": {
-      "one": "1 unavailable {document} document",
-      "other": "{count} unavailable {document} documents"
+      "one": "1 documento {document} non disponibile",
+      "other": "{count} documenti {document} non disponibili"
     },
-    "WorldScripts": "World Scripts",
-    "GenerateFullReport": "Generate Full Report",
-    "GenerateFullReportHint": "A full report contains more detailed information about your installed modules and compendiums and can take some time to generate.",
-    "WorldData": "World Data",
-    "CompendiumData": "Compendium Data",
-    "ActiveModules": "Active Modules",
+    "WorldScripts": "Script del Mondo",
+    "GenerateFullReport": "Genera Rapporto Completo",
+    "GenerateFullReportHint": "Un rapporto completo contiene informazioni più dettagliate sui moduli e compendi installati e può richiedere del tempo per essere generato.",
+    "WorldData": "Dati del Mondo",
+    "CompendiumData": "Contenuti Compendio",
+    "ActiveModules": "Moduli Attivi",
     "TABS": {
-      "support": "Support Details",
-      "documents": "Document Issues",
-      "client": "Client Issues",
-      "modules": "Module Issues"
+      "support": "Dettagli Supporto",
+      "documents": "Problemi Documenti",
+      "client": "Problemi Client",
+      "modules": "Problemi Moduli"
     }
   },
   "TABLE": {
-    "AnimateSetting": "Animate Roll Tables",
-    "AnimateSettingHint": "Display a roulette-style animation when drawing from a Roll Table.",
-    "DrawFlavor": "Draws a result from the {name} table",
-    "DrawFlavorPlural": "Draws {number} results from the {name} table",
-    "NoAvailableResults": "There are no available results which can be drawn from this table.",
-    "Result": "Result",
-    "ResultDescription": "Result Description",
+    "AnimateSetting": "Anima Tabelle di Lancio",
+    "AnimateSettingHint": "Mostra un'animazione in stile roulette quando si estrae da una Tabella di Lancio.",
+    "DrawFlavor": "Estrae un risultato dalla tabella {name}",
+    "DrawFlavorPlural": "Estrae {number} risultati dalla tabella {name}",
+    "NoAvailableResults": "Non ci sono risultati disponibili che possono essere estratti da questa tabella.",
+    "Result": "Risultato",
+    "ResultDescription": "Descrizione del Risultato",
     "SHEETS": {
-      "Config": "Configuration Sheet",
-      "View": "View Sheet"
+      "Config": "Foglio di Configurazione",
+      "View": "Visualizza Foglio"
     },
     "ACTIONS": {
       "ChangeMode": {
-        "Edit": "Edit",
-        "View": "View"
+        "Edit": "Modifica",
+        "View": "Visualizza"
       },
-      "OpenResultConfig": "Open Result Config",
-      "DrawResult": "Draw Result",
-      "DrawSpecificResult": "Draw This Result",
-      "NormalizeResults": "Normalize Result Ranges",
-      "ResetResults": "Reset Results",
-      "CreateResult": "Add New Result",
-      "DeleteResult": "Delete Result",
-      "ToggleDrawn": "Toggle Drawn Status",
-      "Submit": "Update Roll Table"
+      "OpenResultConfig": "Apri Configurazione Risultato",
+      "DrawResult": "Estrai Risultato",
+      "DrawSpecificResult": "Estrai Questo Risultato",
+      "NormalizeResults": "Normalizza Intervalli Risultato",
+      "ResetResults": "Resetta Risultati",
+      "CreateResult": "Aggiungi Nuovo Risultato",
+      "DeleteResult": "Elimina Risultato",
+      "ToggleDrawn": "Attiva/Disattiva Stato Estratto",
+      "Submit": "Aggiorna Tabella di Lancio"
     },
     "TABS": {
-      "summary": "Summary",
-      "results": "Results"
+      "summary": "Riepilogo",
+      "results": "Risultati"
     },
     "FIELDS": {
-      "description.label": "Table Description",
-      "formula.label": "Roll Formula",
-      "replacement.label": "Draw with Replacement",
-      "displayRoll.label": "Display Roll Formula to Chat"
+      "description.label": "Descrizione della Tabella",
+      "formula.label": "Formula di Lancio",
+      "replacement.label": "Estrai con Sostituzione",
+      "displayRoll.label": "Mostra Formula di Lancio nella Chat"
     }
   },
   "TABLE_RESULT": {
-    "Details": "Details",
+    "Details": "Dettagli",
     "ACTIONS": {
-      "Submit": "Update Table Result"
+      "Submit": "Aggiorna Risultato Tabella"
     },
     "TYPES": {
-      "text": "Text",
-      "document": "Document"
+      "text": "Testo",
+      "document": "Documento"
     },
     "FIELDS": {
-      "name.label": "Result Name",
-      "type.label": "Result Type",
-      "img.label": "Result Icon",
-      "documentUuid.label": "Referenced Document",
-      "weight.label": "Weight",
-      "range.label": "Range"
+      "name.label": "Nome Risultato",
+      "type.label": "Tipo Risultato",
+      "img.label": "Icona Risultato",
+      "documentUuid.label": "Documento di Riferimento",
+      "weight.label": "Peso",
+      "range.label": "Intervallo"
     }
   },
   "TEMPLATE.ConeTypeSetting": "Modelli di Cono",
@@ -3230,22 +3230,22 @@
   "TEMPLATE.GridTemplatesSettingHint": "Configura se l'area di effetto dei modelli deve essere basata sulla griglia invece che euclidea.",
   "TEMPLATE.TYPES": {
     "circle": "Circle",
-    "cone": "Cone",
-    "ray": "Ray",
-    "rect": "Rectangle"
+    "cone": "Cono",
+    "ray": "Raggio",
+    "rect": "Rettangolo"
   },
   "TEMPLATE.FIELDS": {
-    "sort.label": "Sort",
-    "t.label": "Type",
-    "direction.label": "Direction",
-    "angle.label": "Angle",
-    "distance.label": "Distance",
-    "borderColor.label": "Border Color",
-    "fillColor.label": "Fill Color",
-    "texture.label": "Fill Texture"
+    "sort.label": "Ordina",
+    "t.label": "Tipo",
+    "direction.label": "Direzione",
+    "angle.label": "Angolo",
+    "distance.label": "Distanza",
+    "borderColor.label": "Colore del Bordo",
+    "fillColor.label": "Colore di Riempimento",
+    "texture.label": "Texture di Riempimento"
   },
   "TILE.ConfigTitle": "Configurazione Tile",
-  "TILE.Dimensions": "Dimensions",
+  "TILE.Dimensions": "Dimensioni",
   "TILE.Scale": "Scala del Tile",
   "TILE.ScaleHint": "Regola la scala dell'immagine sull'asse X o Y. L'immagine potrebbe essere più grande del suo riquadro di delimitazione. I valori negativi capovolgeranno l'immagine.",
   "TILE.OcclusionModeNone": "Nessuna (Sempre Visibile)",
@@ -3253,41 +3253,41 @@
   "TILE.OcclusionModeRoof": "Tetto (Blocca Visione e Illuminazione)",
   "TILE.OcclusionModeRadial": "Radiale (Attorno al Token)",
   "TILE.OcclusionModeVision": "Visione (Campo Visione Token)",
-  "TILE.VideoOptions": "Video Options",
+  "TILE.VideoOptions": "Opzioni Video",
   "TILE.ACTIONS": {
-    "CREATE": "Create Tile",
-    "UPDATE": "Update Tile"
+    "CREATE": "Crea Tile",
+    "UPDATE": "Aggiorna Tile"
   },
   "TILE.SECTIONS": {
-    "position": "Adjust the position and dimensions of the Tile.",
-    "overhead": "Additional attributes that apply if the Tile is overhead in the Foreground."
+    "position": "Regola la posizione e le dimensioni del Tile.",
+    "overhead": "Attributi aggiuntivi che si applicano se il Tile è in sovrapposizione nel Primo Piano."
   },
   "TILE.TABS": {
-    "position": "Position",
-    "appearance": "Appearance",
-    "overhead": "Overhead"
+    "position": "Posizione",
+    "appearance": "Aspetto",
+    "overhead": "Sovrapposizione"
   },
   "TILE.FIELDS": {
-    "sort.label": "Sort",
+    "sort.label": "Ordina",
     "texture": {
-      "src.label": "Tile Image or Video",
-      "scaleX.label": "Horizontal",
-      "scaleY.label": "Vertical",
-      "tint.label": "Tint Color"
+      "src.label": "Immagine o Video del Tile",
+      "scaleX.label": "Orizzontale",
+      "scaleY.label": "Verticale",
+      "tint.label": "Colore di Tint"
     },
-    "alpha.label": "Tile Opacity",
+    "alpha.label": "Opacità del Tile",
     "occlusion": {
-      "mode.label": "Occlusion Mode",
-      "alpha.label": "Occlusion Alpha"
+      "mode.label": "Modalità di Occlusione",
+      "alpha.label": "Alpha di Occlusione"
     },
     "restrictions": {
       "light": {
-        "label": "Restricts Light",
-        "hint": "Are light sources blocked based on their elevation relative to the elevation of this Tile?"
+        "label": "Restrizioni Luce",
+        "hint": "Le fonti di luce sono bloccate in base alla loro elevazione rispetto all'elevazione di questo Tile?"
       },
       "weather": {
-        "label": "Restricts Weather",
-        "hint": "Are weather effects blocked based on their elevation relative to the elevation of this Tile?"
+        "label": "Restrizioni Meteo",
+        "hint": "Gli effetti meteorologici sono bloccati in base alla loro elevazione rispetto all'elevazione di questo Tile?"
       }
     },
     "video": {
@@ -3298,36 +3298,36 @@
   },
   "TIME": {
     "Day": {
-      "one": "Day",
-      "other": "Days",
-      "abbr": "d"
+      "one": "Giorno",
+      "other": "Giorni",
+      "abbr": "g"
     },
     "Hour": {
-      "one": "Hour",
-      "other": "Hours",
+      "one": "Ora",
+      "other": "Ore",
       "abbr": "h"
     },
     "Millisecond": {
-      "one": "Millisecond",
-      "other": "Milliseconds",
+      "one": "Millisecondo",
+      "other": "Millisecondi",
       "abbr": "ms"
     },
     "Minute": {
-      "one": "Minute",
-      "other": "Minutes",
+      "one": "Minuto",
+      "other": "Minuti",
       "abbr": "m"
     },
-    "Now": "Now",
+    "Now": "Adesso",
     "Second": {
-      "one": "Second",
-      "other": "Seconds",
+      "one": "Secondo",
+      "other": "Secondi",
       "abbr": "s"
     },
-    "Since": "{since} ago",
+    "Since": "{since} fa",
     "Year": {
-      "one": "Year",
-      "other": "Years",
-      "abbr": "y"
+      "one": "Anno",
+      "other": "Anni",
+      "abbr": "a"
     }
   },
   "TOKEN.Assign": "Assegna Token",
@@ -3349,16 +3349,16 @@
   "TOKEN.WarningNoActor": "Questo Token fa riferimento a un personaggio che non esiste più nel mondo.",
   "TOKEN.WarningNoVision": "Non possiedi alcun Token con visione in questa scena.",
   "TOKEN.TABS": {
-    "identity": "Identity",
-    "appearance": "Appearance",
-    "vision": "Vision",
-    "light": "Light",
-    "resources": "Resources"
+    "identity": "Identità",
+    "appearance": "Aspetto",
+    "vision": "Visione",
+    "light": "Luce",
+    "resources": "Risorse"
   },
   "TOKEN.SECTIONS": {
-    "basic": "Basic Configuration",
-    "animation": "Light Animation",
-    "advanced": "Advanced Options"
+    "basic": "Configurazione di Base",
+    "animation": "Animazione della Luce",
+    "advanced": "Opzioni Avanzate"
   },
   "TOKEN.FIELDS": {
     "ring": {
@@ -3527,38 +3527,38 @@
   },
   "TOKEN.TURNMARKER": {
     "SHEET": {
-      "legend": "Combat Turn Marker"
+      "legend": "Indicatore di Turno di Combattimento"
     },
     "MODES": {
-      "DISABLED": "Disabled",
-      "DEFAULT": "Default",
-      "CUSTOM": "Custom"
+      "DISABLED": "Disabilitato",
+      "DEFAULT": "Predefinito",
+      "CUSTOM": "Personalizzato"
     }
   },
   "TOKEN.MOVEMENT": {
     "ACTIONS": {
-      "blink.label": "Teleport (Blink)",
-      "burrow.label": "Burrow",
-      "climb.label": "Climb",
-      "crawl.label": "Crawl",
-      "displace.label": "Teleport (Displace)",
-      "jump.label": "Jump",
-      "fly.label": "Fly",
-      "swim.label": "Swim",
-      "walk.label": "Walk"
+      "blink.label": "Teletrasporto (Istantaneo)",
+      "burrow.label": "Scavare",
+      "climb.label": "Arrampicarsi",
+      "crawl.label": "Strisciare",
+      "displace.label": "Teletrasporto (Spostamento)",
+      "jump.label": "Saltare",
+      "fly.label": "Volare",
+      "swim.label": "Nuotare",
+      "walk.label": "Camminare"
     }
   },
   "TYPES": {
     "Base": "Base",
     "Cards": {
-      "deck": "Deck",
-      "hand": "Hand",
-      "pile": "Pile"
+      "deck": "Mazzo",
+      "hand": "Mano",
+      "pile": "Pila"
     },
     "JournalEntryPage": {
-      "image": "Image",
+      "image": "Immagine",
       "pdf": "PDF",
-      "text": "Text",
+      "text": "Testo",
       "video": "Video"
     },
     "Macro": {
@@ -3566,19 +3566,19 @@
       "script": "Script"
     },
     "RegionBehavior": {
-      "adjustDarknessLevel": "Adjust Darkness Level",
-      "displayScrollingText": "Display Scrolling Text",
-      "executeMacro": "Execute Macro",
-      "executeScript": "Execute Script",
-      "modifyMovementCost": "Modify Movement Cost",
-      "pauseGame": "Pause Game",
-      "suppressWeather": "Suppress Weather",
-      "teleportToken": "Teleport Token",
-      "toggleBehavior": "Toggle Behavior"
+      "adjustDarknessLevel": "Regola il Livello di Ombra",
+      "displayScrollingText": "Mostra Testo Scorrevole",
+      "executeMacro": "Esegui Macro",
+      "executeScript": "Esegui Script",
+      "modifyMovementCost": "Modifica Costo di Movimento",
+      "pauseGame": "Metti in Pausa il Gioco",
+      "suppressWeather": "Sopprimi il Meteo",
+      "teleportToken": "Teletrasporta Token",
+      "toggleBehavior": "Attiva/Disattiva Comportamento"
     },
     "TableResult": {
-      "document": "Document",
-      "text": "Text"
+      "document": "Documento",
+      "text": "Testo"
     }
   },
   "DETECTION.LightPerception": "Percezione della Luce",
