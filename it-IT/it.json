@@ -146,7 +146,7 @@
       "contents": "Contenuti"
     },
     "ACTIONS": {
-      "ClearSection": "Pulisci Sezione",
+      "ClearSection": "Azzera Sezione",
       "RestoreSection": "Ripristina Sezione"
     }
   },
@@ -444,7 +444,7 @@
     }
   },
   "CHAT.Chat": "Chat",
-  "CHAT.Clear": "Pulisci Chat",
+  "CHAT.Clear": "Azzera Chat",
   "CHAT.Dismiss": "Ignora",
   "CHAT.EnterMessage": "Inserisci messaggio",
   "CHAT.Export": "Esporta Chat",
@@ -477,7 +477,7 @@
     "End": "Termina Incontro",
     "InitiativeRoll": "Tira Iniziativa",
     "InitiativeReset": "Ripristina Iniziativa",
-    "ClearMovementHistories": "Pulisci storico movimenti",
+    "ClearMovementHistories": "Azzera storico movimenti",
     "InitiativeScore": "Punteggio Iniziativa",
     "EndTitle": "Termina Incontro?",
     "EndConfirmation": "Terminare questo incontro e svuotare il tracker dei turni?",
@@ -522,24 +522,24 @@
     "CombatantUpdateNamed": "Aggiorna Combattente: {name}",
     "CombatantName": "Nome Visualizzato",
     "CombatantRemove": "Rimuovi Partecipante",
-    "CombatantClear": "Pulisci Iniziativa",
+    "CombatantClear": "Azzera Iniziativa",
     "CombatantReroll": "Ritira Iniziativa",
-    "CombatantClearMovementHistory": "Pulisci Storia dei Movimenti",
-    "CombatantMovementHistoryCleared": "Pulisci la storia dei movimenti per il Token \"{name}\".",
+    "CombatantClearMovementHistory": "Azzera storico dei movimenti",
+    "CombatantMovementHistoryCleared": "Azzera lo storico dei movimenti per il Token \"{name}\".",
     "CombatantToken": "Token Rappresentato",
-    "CombatantScene": "Scena Combattente",
+    "CombatantScene": "Scena del Combattente",
     "CombatantNotInScene": "Il partecipante {name} non è presente nella tua scena attualmente visualizzata.",
     "ACTIONS": {
-      "LinkToScene": "Collega alla Scena Visualizzata",
+      "LinkToScene": "Collega alla Scena",
       "UnlinkFromScene": "Scollega dalla Scena"
     },
     "DURATION": {
       "ROUNDS": {
         "one": "Round",
-        "two": "Rounds",
-        "few": "Rounds",
-        "many": "Rounds",
-        "other": "Rounds"
+        "two": "Round",
+        "few": "Round",
+        "many": "Round",
+        "other": "Round"
       },
       "TURNS": {
         "one": "Turno",
@@ -1319,7 +1319,7 @@
     "PAGE_NEXT": "Pagina Successiva",
     "PAGE_PREV": "Pagina Precedente",
     "EMPTY": "Slot Vuoto",
-    "CLEAR": "Pulisci Hotbar",
+    "CLEAR": "Azzera Hotbar",
     "CLEAR_CONFIRM": "Pulisci tutte le Macro assegnate dalla tua hotbar?"
   },
   "HUD.Elevation": "Elevazione",
@@ -4038,7 +4038,7 @@
   "COMBAT.Encounter": "Incontro",
   "COMBAT.EncounterNext": "Attiva Incontro Successivo",
   "COMBAT.EncounterPrevious": "Attiva Incontro Precedente",
-  "COMBAT.End": "Termina Comb.",
+  "COMBAT.End": "Termina Incontro",
   "COMBAT.EndConfirmation": "Terminare l'incontro di combattimento corrente e azzerare l'indicatore dei turni?",
   "COMBAT.EndTitle": "Terminare Incontro di Combattimento?",
   "COMBAT.InitiativeReset": "Ripristina Iniziativa",
@@ -4050,7 +4050,7 @@
   "COMBAT.NoneRemaining": "In questo incontro non son rimasti combattenti non sconfitti.",
   "COMBAT.NotStarted": "Non Iniziato",
   "COMBAT.PanToCombatant": "Vai al Combattente",
-  "COMBAT.PingCombatant": "Combattente Ping",
+  "COMBAT.PingCombatant": "Ping sul Combattente",
   "COMBAT.Resource": "Risorsa Tracciata",
   "COMBAT.ResourceHint": "Scegli un attributo da tracciare per ogni combattente.",
   "COMBAT.RollAll": "Tiro Iniziativa per tutti",
@@ -4067,7 +4067,7 @@
   "COMBAT.SkipDefeatedHint": "Salta automaticamente i combattenti contrassegnati come sconfitti.",
   "COMBAT.Sounds.Epic": "Epica",
   "COMBAT.Sounds.MC": "Commentatore Scontro",
-  "COMBAT.ToggleDead": "Contrassegna Sconfitti",
+  "COMBAT.ToggleDead": "Contrassegna come Sconfitto",
   "COMBAT.ToggleVis": "Attiva/disattiva visibilità",
   "COMBAT.Turn": "Turno",
   "COMBAT.TurnEnd": "Fine Turno",
