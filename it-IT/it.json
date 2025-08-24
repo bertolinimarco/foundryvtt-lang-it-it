@@ -560,8 +560,8 @@
     },
     "TURN_MARKERS": {
       "ANIMATIONS": {
-        "SPIN": "Trottola",
-        "SPIN_PULSE": "Trottola Pulsante",
+        "SPIN": "Rotante",
+        "SPIN_PULSE": "Rotante + Pulsante",
         "PULSE": "Pulsante"
       }
     },
@@ -581,20 +581,20 @@
           },
           "turnMarker": {
             "enabled": {
-              "label": "Abilita Segnalini",
-              "hint": "Abilita i segnalini di turno per impostazione predefinita per tutti i Token."
+              "label": "Abilita Segnale",
+              "hint": "Abilita il segnale di turno per impostazione predefinita per tutti i Token."
             },
             "src": {
               "label": "Fonte Media",
-              "hint": "Un'immagine o un file video da utilizzare per impostazione predefinita come segnalino di turno del Token."
+              "hint": "Un'immagine o un file video da utilizzare per impostazione predefinita come segnale di turno del Token."
             },
             "animation": {
               "label": "Animazione",
-              "hint": "Il tipo di animazione da utilizzare per impostazione predefinita per ogni segnalino di turno del Token."
+              "hint": "Il tipo di animazione da utilizzare per impostazione predefinita per ogni segnale di turno del Token."
             },
             "disposition": {
               "label": "Colore di Disposizione",
-              "hint": "Applica un colore al segnalino di turno in base alla disposizione del Token."
+              "hint": "Applica un colore al segnale di turno in base alla disposizione del Token."
             }
           }
         }
@@ -673,7 +673,7 @@
     "DrawingRect": "Disegna Rettangolo",
     "DrawingEllipse": "Disegna Ellisse",
     "DrawingPoly": "Disegna Poligono",
-    "DrawingPolyP": "<span class=\"reference\">Clicca + Trascina</span> per iniziare poi <span class=\"reference\">Clicca</span> per aggiungere punti. <span class=\"reference\">Doppio Clic</span> per finire.",
+    "DrawingPolyP": "<span class=\"reference\">Click + Trascina</span> per iniziare poi <span class=\"reference\">Click</span> per aggiungere punti. <span class=\"reference\">Doppio Click</span> per finire.",
     "DrawingFree": "Disegna a Mano Libera",
     "DrawingText": "Disegna Testo",
     "DrawingClear": "Rimuovi Disegni",
@@ -1173,7 +1173,7 @@
   "EDITOR.HorizontalRule": "Riga Orizzontale",
   "EDITOR.Link": "Collegamento",
   "EDITOR.ClearFormatting": "Cancella Formattazione",
-  "EDITOR.EnableHighlightDocumentMatches": "Attiva/disattiva La Corrispondenza Del Collegamento Del Contenuto Durante L'evidenziazione",
+  "EDITOR.EnableHighlightDocumentMatches": "Attiva/Disattiva La corrispondenza Del collegamento del contenuto durante l'evidenziazione",
   "EDITOR.SourceHTML": "Sorgente HTML",
   "EDITOR.Save": "Salva Modifiche",
   "EDITOR.SaveAndClose": "Salva e Chiudi Editor",
@@ -1327,7 +1327,7 @@
   "HUD.AssignStatusEffects": "Assegna Effetti di Stato",
   "HUD.SelectMovementAction": "Seleziona Azione di Movimento",
   "HUD.ToggleTargetState": "Attiva/Disattiva Bersaglio",
-  "HUD.ToggleCombatState": "Attiva/disattiva Combattimento",
+  "HUD.ToggleCombatState": "Attiva/Disattiva Combattimento",
   "HUD.ToggleVis": "Attiva/Disattiva Visibilità",
   "HUD.ToggleLock": "Attiva/Disattiva Stato Blocco",
   "HUD.ToFront": "Porta in Primo Piano",
@@ -1365,8 +1365,8 @@
   "JOURNAL.ShowBadPermissions": "Puoi mostrare solo le voci del diario o le pagine di tua appartenenza.",
   "JOURNAL.ShowNoPlayers": "Non ci sono altri giocatori connessi a cui mostrarlo.",
   "JOURNAL.ShowOwnershipHint": "Aggiorna facoltativamente l'appartenenza di questo documento per i giocatori a cui viene mostrato. Se un giocatore ha già un livello di appartenenza maggiore, non verrà declassato.",
-  "JOURNAL.LockModeLocked": "Tabella dei contenuti bloccata. Clicca per sbloccare.",
-  "JOURNAL.LockModeUnlocked": "Tabella dei contenuti sbloccata. Clicca per bloccare.",
+  "JOURNAL.LockModeLocked": "Tabella dei contenuti bloccata. Click per sbloccare.",
+  "JOURNAL.LockModeUnlocked": "Tabella dei contenuti sbloccata. Click per bloccare.",
   "JOURNAL.ConfigureCategories": "configura Categorie",
   "JOURNAL.ConfigureCategoriesTitle": "{name} Categorie",
   "JOURNAL.CategoryName": "Nome Categoria",
@@ -1417,7 +1417,7 @@
     "CoreMouse": "Core Mouse Controls",
     "Restricted": "Solo Gamemaster",
     "ReservedModifiers": "Modificatori speciali: {modifiers}",
-    "HowToEdit": "Usa {icon} o fai doppio clic sul binding dei tasti per cambiare il valore.",
+    "HowToEdit": "Usa {icon} o fai doppio click sul binding dei tasti per cambiare il valore.",
     "CycleView": "Ciclo Vista Canvas o Azione Movimento",
     "Dismiss": "Attiva Menu / Chiudi Tutte le Finestre",
     "Pause": "Metti in Pausa il Gioco",
@@ -1748,7 +1748,7 @@
   "SCENE.CaptureInitialViewPosition": "Posizione del canvas catturata come vista iniziale nel modulo di configurazione della scena.",
   "SCENE.Configure": "Configura",
   "SCENE.Dimensions": "Dimensioni della Scena",
-  "SCENE.DimensionsHint": "Le dimensioni della scena vengono impostate automaticamente per corrispondere alle dimensioni dell'immagine di sfondo quando un'immagine di sfondo viene configurata per la prima volta.",
+  "SCENE.DimensionsHint": "Le dimensioni della scena vengono impostate automaticamente per corrispondere alle dimensioni dell'immagine di sfondo quando questa viene configurata per la prima volta.",
   "SCENE.DimensionChangeTitle": "Modificare le dimensioni della scena?",
   "SCENE.DimensionChangeWarning": "Stai cambiando le dimensioni sottostanti di questa scena, se hai già posizionato oggetti in questa scena, questa operazione potrebbe causare uno spostamento di tali oggetti rispetto all'immagine di sfondo.",
   "SCENE.DimensionLinked": "Le dimensioni della scena sono attualmente collegate: modificando una si modificherà anche l'altra per mantenere il rapporto di aspetto. Fai clic per scollegare.",
@@ -2039,7 +2039,7 @@
   "SETTINGS.CombatConfigL": "Configura Combattimento",
   "SETTINGS.CombatConfigH": "Impostazioni relative al Combattimento e al Tracker.",
   "SETTINGS.CombatThemeN": "Tema Combattimento",
-  "SETTINGS.CombatThemeL": "Insieme di suoni che verranno riprodotti quando inizia il combattimento, quando il tuo turno è il successivo e quando è effettivamente il tuo turno",
+  "SETTINGS.CombatThemeL": "L'insieme di suoni che verrà riprodotto quando inizia il combattimento, quando il tuo turno è il successivo e quando è effettivamente il tuo turno.",
   "SETTINGS.Issues": "Problemi",
   "SETTINGS.Title": "Impostazioni Di Gioco",
   "SETTINGS.Update": "Aggiornamento Software",
@@ -2050,9 +2050,9 @@
   "SETTINGS.ShowToolclips": "Mostra Toolclips",
   "SETTINGS.ShowToolclipsH": "Configura se le Toolclips devono apparire quando si passa il mouse sugli strumenti nella barra laterale.",
   "SETTINGS.None": "Nessuno",
-  "SETTINGS.AnimVisionN": "Animazione Visione Token",
+  "SETTINGS.AnimVisionN": "Animazione visione Token",
   "SETTINGS.AnimVisionL": "Animare la visione e l'illuminazione dei token durante le animazioni dei movimenti. Disattivare questa opzione migliorerà le prestazioni per le macchine di fascia bassa.",
-  "SETTINGS.AnimLightN": "Animazione Fonti Luce",
+  "SETTINGS.AnimLightN": "Animazione luci",
   "SETTINGS.AnimLightL": "Consenti animazioni per le sorgenti luminose. Disattivare questa opzione migliorerà le prestazioni per le macchine di fascia bassa.",
   "SETTINGS.FPSMeterN": "Mostra Misuratore FPS",
   "SETTINGS.FPSMeterL": "Visualizza un misuratore del framerate nell'angolo in basso a destra dello schermo che riporta le prestazioni di rendering dell'area di gioco in fotogrammi al secondo.",
@@ -2060,13 +2060,13 @@
   "SETTINGS.ResolutionScaleL": "Ridimensiona la risoluzione dell'area di gioco in base al rapporto pixel rilevato dal browser. Per i dispositivi di visualizzazione con un'elevata densità di pixel (come i display retina), ciò aumenterà la risoluzione di rendering dell'area di disegno a scapito delle prestazioni dell'applicazione. Il ridimensionamento della risoluzione è influenzato anche dal livello di zoom del browser o dalle impostazioni di visualizzazione del sistema operativo. In questi casi, questa impostazione aumenterà o diminuirà la risoluzione effettiva del canvas a seconda della quantità di zoom applicata. La disabilitazione di questa impostazione può migliorare le prestazioni a scapito della qualità visiva per i display ad alta densità di pixel.",
   "SETTINGS.LangN": "Preferenze Lingua",
   "SETTINGS.LangL": "Cambia la lingua utilizzata in Foundry Virtual Tabletop.",
-  "SETTINGS.LClickReleaseN": "Click tasto sinistro per rilasciare gli oggetti",
+  "SETTINGS.LClickReleaseN": "Click Sinistro per rilasciare gli oggetti",
   "SETTINGS.LClickReleaseL": "Se abilitato, un click sinistro su uno spazio vuoto dell'area di gioco rilascerà tutti gli oggetti attualmente controllati. Se disabilitato, gli oggetti vengono rilasciati selezionando uno spazio vuoto, facendo clic sull'oggetto tenendo premuto il tasto Maiusc o premendo il tasto Esc.",
   "SETTINGS.NoCanvasN": "Disabilita Game Canvas",
   "SETTINGS.NoCanvasL": "Il Game Canvas che fornisce una rappresentazione visiva del piano del tavolo virtuale può essere disabilitato. Ciò consente alle macchine di fascia bassa di utilizzare un sottoinsieme di funzionalità software.",
   "SETTINGS.CBubN": "Abilita Chat Bubbles",
   "SETTINGS.CBubL": "Configura se visualizzare le chat bubbles sopra i token per i messaggi di chat di tipo in-character e emote.",
-  "SETTINGS.CBubPN": "Focus al Token Che Sta Parlando",
+  "SETTINGS.CBubPN": "Focus sul Token che sta parlando",
   "SETTINGS.CBubPL": "Configurare se eseguire automaticamente il focus della telecamera su un token che sta parlando quando viene visualizzata una chat bubble.",
   "SETTINGS.MaxFPSN": "FPS Massimi",
   "SETTINGS.MaxFPSL": "Limitare il framerate massimo in corrispondenza del quale Foundry eseguirà il rendering degli aggiornamenti sul canvas. La riduzione di questo valore può migliorare le prestazioni dell'applicazione su hardware meno potente.",
@@ -2076,7 +2076,7 @@
   "SETTINGS.FontConfigN": "Font Addizionali",
   "SETTINGS.FontConfigL": "Configura Font Addizionali",
   "SETTINGS.FontConfigH": "Configura font aggiuntivi che saranno disponibili per l'uso in questo mondo.",
-  "SETTINGS.PhotosensitiveModeN": "Modalità Fotosensitivi",
+  "SETTINGS.PhotosensitiveModeN": "Modalità fotosensibile",
   "SETTINGS.PhotosensitiveModeL": "L'abilitazione di questa modalità riduce la prevalenza e l'intensità di animazioni ed effetti lampeggianti, in rapido movimento e ripetitivi.",
   "SETTINGS.MipMapN": "Antialiasing sulle Texture durante lo Zoom",
   "SETTINGS.MipMapL": "Calcola mipmap usando l'antialising per le textures sugli sprite a livelli di zoom inferiori. Questa impostazione è a livello client poiché utenti diversi potrebbero preferire stili di visualizzazione differenti.",
@@ -2093,27 +2093,27 @@
   "SETTINGS.TabCore": "Impostazioni di Base",
   "SETTINGS.TabModule": "Impostazioni Modulo",
   "SETTINGS.TabSystem": "Impostazioni di Sistema",
-  "SETTINGS.TokenAutoRotateN": "Automatic Token Rotation",
-  "SETTINGS.TokenAutoRotateL": "When enabled, Tokens are automatically rotated in the direction of movement by default. Regardless of this setting, the Lock Rotation setting on individual tokens will still prevent their artwork from being visually rotated.",
-  "SETTINGS.TokenDragPreviewN": "Vista Token durante Trascinamento",
-  "SETTINGS.TokenDragPreviewL": "Se abilitato, la vista e l'illuminazione di un token vengono mostrate in anteprima in tempo reale durante il trascinamento tramite clic sinistro. Viene disabilitato di default perché potrebbe promuovere comportamenti di meta-gioco indesiderati.",
+  "SETTINGS.TokenAutoRotateN": "Rotazione Automatica del Token",
+  "SETTINGS.TokenAutoRotateL": "Quando abilitato, i token vengono automaticamente ruotati nella direzione del movimento per impostazione predefinita. Indipendentemente da questa impostazione, l'impostazione di Blocco Rotazione sui singoli token impedirà comunque la loro rotazione visiva.",
+  "SETTINGS.TokenDragPreviewN": "Vista Token durante il trascinamento",
+  "SETTINGS.TokenDragPreviewL": "Quando abilitato, la vista e l'illuminazione di un token vengono mostrate in anteprima in tempo reale durante il trascinamento tramite clic sinistro. Viene disabilitato di default perché potrebbe promuovere comportamenti di meta-gioco indesiderati.",
   "SETTINGS.PrototypeTokenOverrides": {
     "Name": "Prototype Token Overrides",
-    "Label": "Configure Prototype Overrides",
-    "Hint": "Configure overrides of Prototype Token data for all Actors.",
+    "Label": "Configura gli Override del Prototype",
+    "Hint": "Configura gli override dei dati del Prototype Token per tutti gli Attori.",
     "Reset": {
-      "Label": "Reset Defaults",
-      "Warning": "This action will remove all configured overrides."
+      "Label": "Ripristina i valori predefiniti",
+      "Warning": "Questa azione rimuoverà tutti gli override configurati."
     },
-    "Disabled": "Disabled",
-    "Submit": "Save Overrides",
+    "Disabled": "Disabilitato",
+    "Submit": "Salva Override",
     "TABS": {
       "AllTypes": {
-        "Label": "[All Types]",
-        "Hint": "These overrides apply to all Prototype Tokens, regardless of parent Actor type. They can themselves be overridden for each Actor type in the subsequent tabs. A blank selection for a field indicates no override."
+        "Label": "[Tutti i Tipi]",
+        "Hint": "Questi override si applicano a tutti i Prototype Tokens, indipendentemente dal tipo di Attore genitore. Possono essere a loro volta sovrascritti per ciascun tipo di Attore nelle schede successive. Una selezione vuota per un campo indica nessun override."
       },
-      "Basics": "Basics",
-      "Marker": "Turn Marker"
+      "Basics": "Di Base",
+      "Marker": "Marker di Attivazione"
     }
   },
   "SETTINGS.PermissionReset": "Reimposta la configurazione dei permessi sui valori predefiniti.",
@@ -2133,11 +2133,11 @@
   "SETTINGS.GridDiagonalsAlternating1": "Alternata (1/2/1)",
   "SETTINGS.GridDiagonalsAlternating2": "Alternata (2/1/2)",
   "SETTINGS.GridDiagonalsIllegal": "Illegale (∞)",
-  "SETTINGS.UniversalKeybindingsN": "Universal Keybindings (experimental)",
-  "SETTINGS.UniversalKeybindingsL": "Match shortcuts by the character you type instead of the physical key position. Improves support for AZERTY, QWERTZ, Kana and other layouts. This is an experimental feature. A reload is required.",
+  "SETTINGS.UniversalKeybindingsN": "Keybindings Universali (beta)",
+  "SETTINGS.UniversalKeybindingsL": "Corrispondenza delle scorciatoie in base al carattere digitato anziché alla posizione fisica del tasto. Migliora il supporto per layout AZERTY, QWERTZ, Kana e altri layout. Questa è una funzionalità sperimentale. È necessario ricaricare il Mondo.",
   "SETTINGS.UI": {
     "MENU": {
-      "name": "Impostazioni UI",
+      "name": "Impostazioni Interfaccia",
       "label": "Configura Interfaccia",
       "hint": "Impostazioni che influenzano l'aspetto o il comportamento dell'interfaccia utente di Foundry Virtual Tabletop."
     },
@@ -2149,7 +2149,7 @@
     },
     "FIELDS": {
       "uiScale": {
-        "label": "Interfaccia Scala",
+        "label": "Scala",
         "hint": "Applica un fattore di scala globale all'interfaccia utente complessiva per renderla più grande o più piccola."
       },
       "fontScale": {
@@ -2163,8 +2163,8 @@
         },
         "choices": {
           "default": "Browser Default",
-          "dark": "Scuro",
-          "light": "Chiaro"
+          "dark": "Tema Scuro",
+          "light": "Tema Chiaro"
         },
         "interface": {
           "label": "Interfaccia",
@@ -2764,7 +2764,7 @@
   },
   "PERMISSION.Title": "Configurazione Autorizzazione Utente",
   "PERMISSION.Configure": "Config. Autorizzazioni",
-  "PERMISSION.ConfigureLabel": "Apri Config. Autorizzazioni",
+  "PERMISSION.ConfigureLabel": "Config. Autorizzazioni",
   "PERMISSION.ConfigureHint": "Ottimizza le azioni consentite agli utenti per ciascun ruolo.",
   "PERMISSION.Instructions": "Configura quale ruolo utente dispone dell'autorizzazione per eseguire l'azione. Nota che alcune azioni non possono essere disabilitate per gli utenti di tipo Dungeon Master. Alcune modifiche potrebbero non avere effetto fino a quando il gioco non viene ricaricato.",
   "PERMISSION.Permission": "Autorizzazione",
@@ -2779,7 +2779,7 @@
   "PERMISSION.ActorCreateHint": "Consenti agli utenti con questo ruolo di creare nuovi personaggi nel Mondo di Gioco",
   "PERMISSION.CardsCreate": "Crea Carte",
   "PERMISSION.CardsCreateHint": "Consenti agli utenti con questo ruolo di creare nuovi documenti di tipo Carta nel mondo.",
-  "PERMISSION.DrawingCreate": "Utilizza Strumenti di Disegno",
+  "PERMISSION.DrawingCreate": "Utilizzo degli Strumenti di Disegno",
   "PERMISSION.DrawingCreateHint": "Consenti agli utentii con questo ruolo di utilizzare gli strumenti di disegno.",
   "PERMISSION.ItemCreate": "Crea Nuovi Oggetti",
   "PERMISSION.ItemCreateHint": "Consenti agli utenti con questo ruolo di creare nuovi oggetti nel Mondo di Gioco",
@@ -2789,10 +2789,10 @@
   "PERMISSION.FilesUploadHint": "Consenti agli utenti con questo ruolo di caricare contenuti sul server utilizzando il File Browser.",
   "PERMISSION.JournalCreate": "Crea Voci Diario",
   "PERMISSION.JournalCreateHint": "Consenti agli utenti con questo ruolo di creare nuove voci nella barra laterale Voci Diario.",
-  "PERMISSION.MacroScript": "Utilizza Script Macro",
+  "PERMISSION.MacroScript": "Utilizzo degli Script Macro",
   "PERMISSION.MacroScriptHint": "Consenti agli utenti con questo ruolo di utilizzare macro JavaScript con accesso alle API.",
-  "PERMISSION.ManualRolls": "Make Manual Rolls",
-  "PERMISSION.ManualRollsHint": "Allow users with this role the option to manually input rolls.",
+  "PERMISSION.ManualRolls": "Tiri Manuali",
+  "PERMISSION.ManualRollsHint": "Consenti agli utenti con questo ruolo di inserire manualmente i tiri.",
   "PERMISSION.MessageWhisper": "Invia Messaggi Privati",
   "PERMISSION.MessageWhisperHint": "Consenti agli utenti con questo ruolo di inviare messaggi privati che il Dungeon Master non può vedere.",
   "PERMISSION.NoteCreate": "Crea Annotazioni Mappa",
@@ -2801,11 +2801,11 @@
   "PERMISSION.PingCanvasHint": "Consenti agli utenti con questo ruolo di attirare l'attenzione su un punto del canvas con un ping animato",
   "PERMISSION.PlaylistCreate": "Crea Playlist",
   "PERMISSION.PlaylistCreateHint": "Consenti agli Utenti con questo ruolo di creare nuove playlist nel Mondo.",
-  "PERMISSION.SettingsModify": "Modifica Impostazioni di Configurazione",
+  "PERMISSION.SettingsModify": "Mod. config. Gioco",
   "PERMISSION.SettingsModifyHint": "Consenti agli utenti con questo ruolo di modificare le impostazioni di gioco e abilitare o disabilitare i moduli.",
   "PERMISSION.ShowCursor": "Visualizza Cursore del Mouse",
   "PERMISSION.ShowCursorHint": "Mostra la posizione del cursore del mouse del giocatore che visualizza dove l'utente sta guardando.",
-  "PERMISSION.ShowRuler": "Visualizza Misurazione Righello",
+  "PERMISSION.ShowRuler": "Visualizza Righello di misurazione",
   "PERMISSION.ShowRulerHint": "Mostra la misurazione utilizzando lo strumento righello agli altri giocatori connessi.",
   "PERMISSION.TemplateCreate": "Crea Modello di Misurazione",
   "PERMISSION.TemplateCreateHint": "Consenti agli utenti con questo ruolo di creare modelli per la misurazione dell'area di effetto.",
@@ -4068,7 +4068,7 @@
   "COMBAT.Sounds.Epic": "Epica",
   "COMBAT.Sounds.MC": "Commentatore Scontro",
   "COMBAT.ToggleDead": "Contrassegna come Sconfitto",
-  "COMBAT.ToggleVis": "Attiva/disattiva visibilità",
+  "COMBAT.ToggleVis": "Attiva/Disattiva Visibilità",
   "COMBAT.Turn": "Turno",
   "COMBAT.TurnEnd": "Fine Turno",
   "COMBAT.TurnNext": "Turno Successivo",
@@ -4109,7 +4109,7 @@
   "CONTROLS.CanvasSelectMany": "Aggiungi o Rimuovi gli Oggeti Selezionati",
   "CONTROLS.CanvasZoom": "Zoom sull'Area di Gioco",
   "CONTROLS.ChainCtrlClick": "Tieni <span class=\"reference\">CTRL</span> poi <span class=\"reference\">Click</span>",
-  "CONTROLS.CharacterSheet": "Attiva/disattiva Scheda Personaggio",
+  "CONTROLS.CharacterSheet": "Attiva/Disattiva Scheda Personaggio",
   "CONTROLS.ClearAll": "Cancella tutti gli Oggetti",
   "CONTROLS.ClearAllHint": "Eliminare definitivamente tutti gli oggetti {type} da questa scena?",
   "CONTROLS.Click": "Click",
@@ -4396,7 +4396,7 @@
   "DOCUMENT.Tile": "Tile",
   "DOCUMENT.Tiles": "Tiles",
   "DOCUMENT.Token": "Token",
-  "DOCUMENT.Tokens": "Tokens",
+  "DOCUMENT.Tokens": "Token",
   "DOCUMENT.TypePageFormat": "{type} {page}",
   "DOCUMENT.Update": "Aggiorna {type}",
   "DOCUMENT.UsePermissionWarn": "Non disponi dell'autorizzazione per utilizzare questo {documento}.",
@@ -4474,7 +4474,7 @@
   "FILES.TitleImageVideo": "Browser Immagini o Video",
   "FILES.TitleText": "Browser Documenti",
   "FILES.TitleVideo": "Browser Video",
-  "FILES.TogglePrivacy": "Attiva/disattiva modalità privata",
+  "FILES.TogglePrivacy": "Attiva/Disattiva modalità privata",
   "FILES.UnitPixels": "(pixels)",
   "FILES.Upload": "Carica",
   "FILES.WarnUploadModules": "Hai caricato dei file in un modulo o in una directory di sistema. Questo è generalmente <strong>non sicuro</strong> perché gli aggiornamenti al sistema o al modulo elimineranno i tuoi file.",
@@ -4487,7 +4487,7 @@
   "FONTS.AddFont": "Aggiungi Font",
   "FONTS.Family": "Famiglia Font",
   "FONTS.File": "File Font",
-  "FONTS.FontPreview": "Sfinge di quarzo nero, giudica il mio voto.",
+  "FONTS.FontPreview": "Nel mezzo del cammin di nostra vita, mi ritrovai per una selva oscura, ché la diritta via era smarrita.",
   "FONTS.RemoveFont": "Rimuovi Font",
   "FONTS.Style": "Stile Font",
   "FONTS.Type": "Tipo Font",
@@ -4516,7 +4516,7 @@
   "KEYBINDINGS.ExecuteMacro": "Esegui slot hotbar {number}",
   "KEYBINDINGS.FocusChat": "Focus Chat",
   "KEYBINDINGS.Highlight": "Evidenzia Oggetti",
-  "KEYBINDINGS.HowToEdit": "Utilizzare {icon} o fare doppio clic sull'associazione dei tasti per modificare il valore.",
+  "KEYBINDINGS.HowToEdit": "Utilizzare {icon} o fare doppio click sull'associazione dei tasti per modificare il valore.",
   "KEYBINDINGS.MoveAlongMeasuredRuler": "Sposta Lungo Righello di Misura",
   "KEYBINDINGS.MustBeArray": "Deve passare in un array di valori",
   "KEYBINDINGS.NavLabel": "Schede Configurazione Tasti",
@@ -4808,10 +4808,10 @@
   "SCENES.WeatherEffectHint": "Mostra gli effetti atmosferici applicati alla scena.",
   "SCENES.ZoomLower": "Zoom",
   "SETTINGS.AccessHeader": "Accesso Gioco",
-  "SETTINGS.ColorSchemeDark": "Scuro",
+  "SETTINGS.ColorSchemeDark": "Tema Scuro",
   "SETTINGS.ColorSchemeDefault": "Predefinito del browser",
   "SETTINGS.ColorSchemeH": "Specifica se preferisci che gli elementi dell'interfaccia utente vengano visualizzati utilizzando un tema chiaro o un tema scuro. Non tutti gli elementi dell'interfaccia supportano questa preferenza.",
-  "SETTINGS.ColorSchemeLight": "Chiaro",
+  "SETTINGS.ColorSchemeLight": "Tema Chiaro",
   "SETTINGS.ColorSchemeN": "Schema di colori preferito",
   "SETTINGS.Configure": "Impostazioni",
   "SETTINGS.DefaultTokenH": "Configura i valori token predefiniti per gli personaggi appena creati.",
@@ -5206,7 +5206,7 @@
   "TABLE.ResultWeight": "Peso",
   "TABLE.Roll": "Tiro",
   "TABLE.SheetTitle": "Configurazione Tabella",
-  "TABLE.ToggleDrawn": "Attiva/disattiva stato visualizzato",
+  "TABLE.ToggleDrawn": "Attiva/Disattiva stato visualizzato",
   "TABLE.Update": "Aggiorna",
   "TEMPLATE.BorderColor": "Colore Bordo",
   "TEMPLATE.FillColor": "Colore Riempimento",
