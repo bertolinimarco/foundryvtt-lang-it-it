@@ -2,7 +2,7 @@
   "id": "translation-core-it",
   "title": "FVTT Core Italian Translation",
   "description": "Traduzione italiana per FoundryVTT",
-  "version": "13.347b",
+  "version": "13.347c",
   "compatibility": {
     "minimum": 13,
     "verified": 13
