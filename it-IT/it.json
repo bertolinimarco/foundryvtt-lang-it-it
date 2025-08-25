@@ -49,7 +49,7 @@
   "Notes": "Note",
   "Preload": "Precaricamento",
   "Previous": "Precedente",
-  "Token": "Token",
+  "Token": "Segnalino",
   "Minimum": "Minimo",
   "Maximum": "Massimo",
   "Image": "Immagine",
@@ -165,7 +165,7 @@
         "label": "Angolo di Rotazione"
       },
       "vision": {
-        "hint": "Questa fonte di luce conta come una fonte di visione, rivelando aree aggiuntive della Scena anche se non è in linea di vista di un Token controllato.",
+        "hint": "Questa fonte di luce conta come una fonte di visione, rivelando aree aggiuntive della Scena anche se non è in linea di vista di un Segnalino controllato.",
         "label": "Fornisce Visione"
       },
       "walls": {
@@ -209,7 +209,7 @@
         }
       },
       "easing": {
-        "hint": "Regola il livello di volume del suono mentre i Token si avvicinano all'origine.",
+        "hint": "Regola il livello di volume del suono mentre i Segnalini si avvicinano all'origine.",
         "label": "Dissolvenza Volume"
       },
       "effects": {
@@ -240,7 +240,7 @@
         "label": "Nascosto"
       },
       "path": {
-        "hint": "Configura il suono ambientale per riprodurre un file audio quando i token si muovono nel suo raggio.",
+        "hint": "Configura il suono ambientale per riprodurre un file audio quando i Segnalini si muovono nel suo raggio.",
         "label": "Percorso File Sorgente"
       },
       "radius": {
@@ -395,7 +395,7 @@
       "Pass": "Passa",
       "PreviousFace": "Fronte Precedente",
       "Reset": "Ripristina",
-      "ResetDelete": "Ripristina & Elimina",
+      "ResetDelete": "Ripristina ed Elimina",
       "Save": "Salva",
       "Shuffle": "Mescola",
       "ToggleSortMode": "Attiva Modalità Ordinamento"
@@ -416,13 +416,13 @@
       "AddFace": "Aggiungi Fronte",
       "DeleteFace": {
         "Title": "Elimina Fronte",
-        "Warning": "Eliminare questo fronte della carta rimuoverà permanentemente i dati della Carta."
+        "Warning": "Eliminare questo fronte della carta rimuoverà permanentemente i dati della carta."
       }
     },
     "TABS": {
       "details": "Dettagli",
       "faces": "Fronte",
-      "back": "Retro"
+      "back": "Dorso"
     },
     "FIELDS": {
       "suit.label": "Seme",
@@ -437,9 +437,9 @@
         }
       },
       "back": {
-        "name.label": "Nome Retro",
-        "img.label": "Immagine Retro",
-        "text.label": "Testo Retro"
+        "name.label": "Nome Dorso",
+        "img.label": "Immagine Dorso",
+        "text.label": "Testo Dorso"
       }
     }
   },
@@ -480,13 +480,13 @@
     "ClearMovementHistories": "Azzera storico movimenti",
     "InitiativeScore": "Punteggio Iniziativa",
     "EndTitle": "Termina Incontro?",
-    "EndConfirmation": "Terminare questo incontro e svuotare il tracker dei turni?",
+    "EndConfirmation": "Terminare l'incontro e azzerare l'indicatore dei turni?",
     "None": "Nessun Incontro",
     "NoneActive": "Non c'è alcun Incontro attivo nella Scena attualmente visualizzata.",
     "NoneRemaining": "Non ci sono partecipanti rimasti in questo Incontro che non siano stati sconfitti.",
     "NotStarted": "Non Iniziato",
     "PanToCombatant": "Centra sul combattente",
-    "PingCombatant": "Ping Token",
+    "PingCombatant": "Ping Segnalino",
     "WarnNonVisibleToken": "Questo combattente non è visibile per te.",
     "Round": "Round {round}",
     "Rounds": "Rounds",
@@ -495,9 +495,9 @@
     "RollNPC": "Tira NPC",
     "RollAll": "Tira Tutti",
     "RollsInitiative": "{name} tira per Iniziativa!",
-    "Settings": "Impostazioni Tracker Incontro",
-    "SettingsSave": "Salva Impostazioni Tracker",
-    "SidebarTitle": "Tracker Incontro",
+    "Settings": "Impostazioni interfaccia Incontro",
+    "SettingsSave": "Salva Impostazioni",
+    "SidebarTitle": "Interfaccia Incontro",
     "Sounds": {
       "Epic": "Epico",
       "MC": "Commentatore Combattimento"
@@ -525,8 +525,8 @@
     "CombatantClear": "Azzera Iniziativa",
     "CombatantReroll": "Ritira Iniziativa",
     "CombatantClearMovementHistory": "Azzera storico dei movimenti",
-    "CombatantMovementHistoryCleared": "Azzera lo storico dei movimenti per il Token \"{name}\".",
-    "CombatantToken": "Token Rappresentato",
+    "CombatantMovementHistoryCleared": "Azzera lo storico dei movimenti per il Segnalino \"{name}\".",
+    "CombatantToken": "Segnalino Rappresentato",
     "CombatantScene": "Scena del Combattente",
     "CombatantNotInScene": "Il partecipante {name} non è presente nella tua scena attualmente visualizzata.",
     "ACTIONS": {
@@ -567,7 +567,7 @@
     },
     "CONFIG": {
       "SHEET": {
-        "TURN_MARKERS": "Segnalini Turno del Token"
+        "TURN_MARKERS": "Indicatore turno"
       },
       "FIELDS": {
         "core.combatTrackerConfig": {
@@ -582,25 +582,25 @@
           "turnMarker": {
             "enabled": {
               "label": "Abilita Segnale",
-              "hint": "Abilita il segnale di turno per impostazione predefinita per tutti i Token."
+              "hint": "Abilita il segnale di turno per impostazione predefinita per tutti i Segnalini."
             },
             "src": {
               "label": "Fonte Media",
-              "hint": "Un'immagine o un file video da utilizzare per impostazione predefinita come segnale di turno del Token."
+              "hint": "Un'immagine o un file video da utilizzare per impostazione predefinita come segnale di turno del Segnalino."
             },
             "animation": {
               "label": "Animazione",
-              "hint": "Il tipo di animazione da utilizzare per impostazione predefinita per ogni segnale di turno del Token."
+              "hint": "Il tipo di animazione da utilizzare per impostazione predefinita per ogni segnale di turno del Segnalino."
             },
             "disposition": {
               "label": "Colore di Disposizione",
-              "hint": "Applica un colore al segnale di turno in base alla disposizione del Token."
+              "hint": "Applica un colore al segnale di turno in base alla disposizione del Segnalino."
             }
           }
         }
       }
     },
-    "PingInvisibleToken": "Non puoi vedere il token di questo partecipante.",
+    "PingInvisibleToken": "Non puoi vedere il Segnalino di questo partecipante.",
     "ResourceHint": "Scegli un attributo da tracciare per ogni partecipante.",
     "SkipDefeatedHint": "Ignora automaticamente i partecipanti contrassegnati come sconfitti?",
     "TargetedBy": "Bersagliato da {list}",
@@ -635,7 +635,7 @@
       "Portraits": "Ritratti",
       "PriorityDecrease": "Diminuisci Priorità",
       "PriorityIncrease": "Aumenta Priorità",
-      "Tokens": "Tokens"
+      "Tokens": "Segnalini"
     },
     "SETTING": {
       "Hint": "Configura quali immagini fornite dal sistema e dai moduli devono essere utilizzate.",
@@ -647,12 +647,12 @@
     "Title": "Riferimento ai Controlli di Gioco",
     "NavLabel": "Palette dei Controlli del Canvas",
     "Instructions": "Questo modulo descrive i comandi comuni da tastiera e mouse utilizzati per controllare vari aspetti dell'ambiente Foundry Virtual Tabletop. Alcuni controlli sono disponibili solo per un utente Game Master, quelli sono evidenziati in viola chiaro.",
-    "GroupToken": "Controlli Token",
+    "GroupToken": "Controlli dei Segnalini",
     "CommonForceSnap": "Forza Snap ai Vertici della Griglia",
-    "BasicSelect": "Seleziona Token",
-    "BasicSelectP": "Seleziona qualsiasi Token di tua proprietà per vedere la loro linea di vista. Quando non ci sono token selezionati, vedrai cosa possono vedere tutti i Token di tua proprietà.",
+    "BasicSelect": "Seleziona Segnalini",
+    "BasicSelectP": "Seleziona qualsiasi Segnalino di tua proprietà per vedere la loro linea di vista. Quando non ci sono Segnalini selezionati, vedrai cosa possono vedere tutti i Segnalini di tua proprietà.",
     "TargetSelect": "Seleziona Bersaglio",
-    "TargetSelectP": "Rendi come bersaglio qualsiasi Token che puoi vedere.",
+    "TargetSelectP": "Rendi come bersaglio qualsiasi Segnalino che puoi vedere.",
     "BasicMeasure": "Misura Distanza",
     "GroupMeasure": "Controlli di Misurazione",
     "MeasureType": "Tipo di Template",
@@ -722,7 +722,7 @@
     "GroupSound": "Controlli Suono Ambientale",
     "SoundDraw": "Disegna Suono Ambientale",
     "SoundPreview": "Anteprima Suoni Ambientali",
-    "SoundPreviewP": "Quando attivo, passa il cursore su un suono ambientale per sentirlo come se il tuo Token fosse in quella posizione.",
+    "SoundPreviewP": "Quando attivo, passa il cursore su un suono ambientale per sentirlo come se il tuo Segnalino fosse in quella posizione.",
     "SoundClear": "Rimuovi Suoni",
     "GroupNotes": "Note del Diario",
     "NoteSelect": "Seleziona Note",
@@ -803,10 +803,10 @@
     "KeyPan": "Centra Canvas",
     "KeyZoomIn": "Zoom In",
     "KeyZoomOut": "Zoom Out",
-    "KeyCycle": "Cicla Token o Ripristina Vista",
-    "KeyMove": "Movimento da Tastiera (Token o Piastrelle)",
+    "KeyCycle": "Cicla Segnalino o Ripristina Vista",
+    "KeyMove": "Movimento da Tastiera (Segnalino o Oggetto)",
     "KeyMoveDiag": "Movimento Diagonale",
-    "KeyMoveFace": "Direzione del Token",
+    "KeyMoveFace": "Direzione del Segnalino",
     "KeyDelete": "Elimina Oggetti Selezionati",
     "KeyCopy": "Copia Elementi Canvas",
     "KeyPaste": "Incolla Elementi Canvas",
@@ -825,11 +825,11 @@
     "MouseWheel": "Rotella del mouse",
     "DragDrop": "Trascina e Rilascia",
     "UnconstrainedMovement": "Movimento Libero",
-    "UnconstrainedMovementP": "Quando attivo, puoi muovere i Token attraverso muri e terreni inaccessibili.",
-    "TokenHeader": "Controlli Token",
-    "TokenPlaceHidden": "Posiziona Token Nascosto",
-    "TokenTarget": "Imposta Token (non di proprietà) come Bersaglio",
-    "TokenPlaceHiddenCreate": "quando crei un Token.",
+    "UnconstrainedMovementP": "Quando attivo, puoi muovere i Segnalini attraverso muri e terreni inaccessibili.",
+    "TokenHeader": "Controlli Segnalino",
+    "TokenPlaceHidden": "Posiziona Segnalino Nascosto",
+    "TokenTarget": "Imposta Segnalino (non di proprietà) come Bersaglio",
+    "TokenPlaceHiddenCreate": "quando crei un Segnalino.",
     "TooltipDismiss": "Chiudi tooltip bloccato",
     "TooltipLock": "Blocca tooltip",
     "WallHeader": "Controlli Layer Muri",
@@ -967,8 +967,8 @@
     "TableResults": "Risultati Tabella",
     "Tile": "Tile",
     "Tiles": "Tiles",
-    "Token": "Token",
-    "Tokens": "Tokens",
+    "Token": "Segnalino",
+    "Tokens": "Segnalini",
     "User": "Utente",
     "Users": "Utenti",
     "Wall": "Parete",
@@ -1334,7 +1334,7 @@
   "HUD.ToBack": "Porta in Secondo Piano",
   "HUD.TilePlay": "Riproduci Tile Video",
   "HUD.TilePause": "Metti in Pausa Tile Video",
-  "HUD.WarningEffectNoActor": "Non puoi assegnare effetti di stato a un Token che non ha un Attore associato.",
+  "HUD.WarningEffectNoActor": "Non puoi assegnare effetti di stato a un Segnalino che non ha un Attore associato.",
   "HTMLDocumentTagsElement.PLACEHOLDER": "Enter UUID or Drop {type}",
   "JOURNAL.ModeText": "Testo",
   "JOURNAL.ModeImage": "Immagine",
@@ -1428,7 +1428,7 @@
     "Cut": "Taglia Oggetti",
     "Copy": "Copia Oggetti",
     "Paste": "Incolla Oggetti",
-    "Target": "Token di Destinazione",
+    "Target": "Bersaglio",
     "Ruler": "Attiva Righello Distanza",
     "SendToBack": "Invia Oggetti sullo Sfondo",
     "BringToFront": "Porta Oggetti in Primo Piano",
@@ -1754,7 +1754,7 @@
   "SCENE.DimensionLinked": "Le dimensioni della scena sono attualmente collegate: modificando una si modificherà anche l'altra per mantenere il rapporto di aspetto. Fai clic per scollegare.",
   "SCENE.DimensionUnlinked": "Le dimensioni della scena sono attualmente scollegate, modificando una non si modificherà l'altra. Fai clic per collegare.",
   "SCENE.DistortedDimensionsTitle": "Dimensioni della Scena distorte",
-  "SCENE.DistortedDimensionsWarning": "Hai scelto nuove dimensioni che hanno un rapporto di aspetto diverso da quello originale. Vuoi riposizionare automaticamente gli oggetti posizionati come i Token? Il risultato potrebbe apparire distorto.",
+  "SCENE.DistortedDimensionsWarning": "Hai scelto nuove dimensioni che hanno un rapporto di aspetto diverso da quello originale. Vuoi riposizionare automaticamente gli oggetti posizionati come i Segnalini? Il risultato potrebbe apparire distorto.",
   "SCENE.GenerateThumb": "Genera Immagine di Anteprima",
   "SCENE.GenerateThumbNoCanvas": "L'anteprima della scena non può essere generata con l'impostazione 'Disabilita Canvas di Gioco' attiva.",
   "SCENE.GenerateThumbUploadDenied": "L'anteprima della scena non può essere generata perché l'utente non ha il permesso di caricare file.",
@@ -1818,10 +1818,10 @@
     "grid": {
       "type.label": "Tipo di Griglia",
       "size": {
-        "label": "Dimensione Griglia",
+        "label": "Dimensione della Griglia",
         "hint": "La dimensione in pixel di uno spazio della griglia. Usa lo strumento di configurazione della griglia per regolare visivamente questo valore."
       },
-      "thickness.label": "Spessore Griglia",
+      "thickness.label": "Spessore della Griglia",
       "color.label": "Colore della Griglia",
       "alpha.label": "Opacità della Griglia",
       "distance.label": "Distanza",
@@ -1833,13 +1833,13 @@
       "hint": "Un'ammontare di padding aggiuntivo attorno all'immagine di sfondo della scena che fornisce spazio utilizzabile sulla tela."
     },
     "tokenVision": {
-      "label": "Token Vision",
-      "hint": "Limita la visibilità all'interno di questa scena alla visione dei token controllati. Se disabilitato, l'intera scena è visibile."
+      "label": "Visione dei Segnalini",
+      "hint": "Limita la visibilità all'interno di questa scena alla visione dei Segnalini controllati. Se disabilitato, l'intera scena è visibile."
     },
     "fog": {
       "exploration": {
-        "label": "Fog Exploration",
-        "hint": "Se questa impostazione è attivata, l'esplorazione della nebbia di guerra verrà tracciata su base per utente e memorizzata nel database man mano che la scena viene esplorata. In caso contrario, l'esplorazione della nebbia non si verifica e i token sono limitati solo a ciò che possono attualmente vedere."
+        "label": "Esplorazione Nebbia di Guerra",
+        "hint": "Se questa impostazione è attivata, l'esplorazione della nebbia di guerra verrà tracciata su base per utente e memorizzata nel database man mano che la scena viene esplorata. In caso contrario, l'esplorazione della nebbia non si verifica e i Segnalini sono limitati solo a ciò che possono attualmente vedere."
       },
       "overlay": {
         "label": "Immagine Nebbia di Guerra",
@@ -2050,8 +2050,8 @@
   "SETTINGS.ShowToolclips": "Mostra Toolclips",
   "SETTINGS.ShowToolclipsH": "Configura se le Toolclips devono apparire quando si passa il mouse sugli strumenti nella barra laterale.",
   "SETTINGS.None": "Nessuno",
-  "SETTINGS.AnimVisionN": "Animazione visione Token",
-  "SETTINGS.AnimVisionL": "Animare la visione e l'illuminazione dei token durante le animazioni dei movimenti. Disattivare questa opzione migliorerà le prestazioni per le macchine di fascia bassa.",
+  "SETTINGS.AnimVisionN": "Animazione visione Segnalino",
+  "SETTINGS.AnimVisionL": "Animare la visione e l'illuminazione dei Segnalini durante le animazioni dei movimenti. Disattivare questa opzione migliorerà le prestazioni per le macchine di fascia bassa.",
   "SETTINGS.AnimLightN": "Animazione luci",
   "SETTINGS.AnimLightL": "Consenti animazioni per le sorgenti luminose. Disattivare questa opzione migliorerà le prestazioni per le macchine di fascia bassa.",
   "SETTINGS.FPSMeterN": "Mostra Misuratore FPS",
@@ -2064,10 +2064,10 @@
   "SETTINGS.LClickReleaseL": "Se abilitato, un click sinistro su uno spazio vuoto dell'area di gioco rilascerà tutti gli oggetti attualmente controllati. Se disabilitato, gli oggetti vengono rilasciati selezionando uno spazio vuoto, facendo clic sull'oggetto tenendo premuto il tasto Maiusc o premendo il tasto Esc.",
   "SETTINGS.NoCanvasN": "Disabilita Game Canvas",
   "SETTINGS.NoCanvasL": "Il Game Canvas che fornisce una rappresentazione visiva del piano del tavolo virtuale può essere disabilitato. Ciò consente alle macchine di fascia bassa di utilizzare un sottoinsieme di funzionalità software.",
-  "SETTINGS.CBubN": "Abilita Chat Bubbles",
-  "SETTINGS.CBubL": "Configura se visualizzare le chat bubbles sopra i token per i messaggi di chat di tipo in-character e emote.",
-  "SETTINGS.CBubPN": "Focus sul Token che sta parlando",
-  "SETTINGS.CBubPL": "Configurare se eseguire automaticamente il focus della telecamera su un token che sta parlando quando viene visualizzata una chat bubble.",
+  "SETTINGS.CBubN": "Abilita 'Chat Bubbles'",
+  "SETTINGS.CBubL": "Configura se visualizzare le chat bubbles sopra i Segnalini per i messaggi di chat di tipo \"prima persona\" e emote.",
+  "SETTINGS.CBubPN": "Focus sul Segnalino che sta parlando",
+  "SETTINGS.CBubPL": "Configurare se eseguire automaticamente il focus della telecamera su un Segnalino che sta parlando quando viene visualizzata una chat bubble.",
   "SETTINGS.MaxFPSN": "FPS Massimi",
   "SETTINGS.MaxFPSL": "Limitare il framerate massimo in corrispondenza del quale Foundry eseguirà il rendering degli aggiornamenti sul canvas. La riduzione di questo valore può migliorare le prestazioni dell'applicazione su hardware meno potente.",
   "SETTINGS.DefaultSheetsN": "Schede Documenti Predefinite",
@@ -2087,20 +2087,20 @@
   "SETTINGS.PerformanceModeHigh": "Alta",
   "SETTINGS.PerformanceModeMax": "Massima",
   "SETTINGS.ScrollStatusN": "Testo di Stato Scorrevole",
-  "SETTINGS.ScrollStatusL": "Il testo di stato scorrevole può apparire sopra i token o altri oggetti per fornire un feedback testuale sulle modifiche per quell'oggetto.",
+  "SETTINGS.ScrollStatusL": "Il testo di stato scorrevole può apparire sopra i Segnalini o altri oggetti per fornire un feedback testuale sulle modifiche per quell'oggetto.",
   "SETTINGS.SoftSN": "Abilita Ombreggiatura Sfumata",
   "SETTINGS.SoftSL": "Abilita l'ombreggiatura sfumata per una migliore illuminazione dinamica o disattivala per prestazioni migliori su macchine con hardware di fascia bassa.",
   "SETTINGS.TabCore": "Impostazioni di Base",
   "SETTINGS.TabModule": "Impostazioni Modulo",
   "SETTINGS.TabSystem": "Impostazioni di Sistema",
-  "SETTINGS.TokenAutoRotateN": "Rotazione Automatica del Token",
-  "SETTINGS.TokenAutoRotateL": "Quando abilitato, i token vengono automaticamente ruotati nella direzione del movimento per impostazione predefinita. Indipendentemente da questa impostazione, l'impostazione di Blocco Rotazione sui singoli token impedirà comunque la loro rotazione visiva.",
-  "SETTINGS.TokenDragPreviewN": "Vista Token durante il trascinamento",
-  "SETTINGS.TokenDragPreviewL": "Quando abilitato, la vista e l'illuminazione di un token vengono mostrate in anteprima in tempo reale durante il trascinamento tramite clic sinistro. Viene disabilitato di default perché potrebbe promuovere comportamenti di meta-gioco indesiderati.",
+  "SETTINGS.TokenAutoRotateN": "Rotazione Automatica del Segnalino",
+  "SETTINGS.TokenAutoRotateL": "Quando abilitato, i Segnalini vengono automaticamente ruotati nella direzione del movimento per impostazione predefinita. Indipendentemente da questa impostazione, l'impostazione di Blocco Rotazione sui singoli Segnalini impedirà comunque la loro rotazione visiva.",
+  "SETTINGS.TokenDragPreviewN": "Vista Segnalino durante il trascinamento",
+  "SETTINGS.TokenDragPreviewL": "Quando abilitato, la vista e l'illuminazione di un Segnalino vengono mostrate in anteprima in tempo reale durante il trascinamento tramite clic sinistro. Viene disabilitato di default perché potrebbe promuovere comportamenti di meta-gioco indesiderati.",
   "SETTINGS.PrototypeTokenOverrides": {
-    "Name": "Prototype Token Overrides",
-    "Label": "Configura gli Override del Prototype",
-    "Hint": "Configura gli override dei dati del Prototype Token per tutti gli Attori.",
+    "Name": "Override dei Segnalini Prototipo",
+    "Label": "Configura gli Override del Segnalino Prototipo",
+    "Hint": "Configura gli override dei dati del Segnalino Prototipo per tutti gli Attori.",
     "Reset": {
       "Label": "Ripristina i valori predefiniti",
       "Warning": "Questa azione rimuoverà tutti gli override configurati."
@@ -2110,7 +2110,7 @@
     "TABS": {
       "AllTypes": {
         "Label": "[Tutti i Tipi]",
-        "Hint": "Questi override si applicano a tutti i Prototype Tokens, indipendentemente dal tipo di Attore genitore. Possono essere a loro volta sovrascritti per ciascun tipo di Attore nelle schede successive. Una selezione vuota per un campo indica nessun override."
+        "Hint": "Questi override si applicano a tutti i Segnalini Prototipo, indipendentemente dal tipo di Attore genitore. Possono essere a loro volta sovrascritti per ciascun tipo di Attore nelle schede successive. Una selezione vuota per un campo indica nessun override."
       },
       "Basics": "Di Base",
       "Marker": "Marker di Attivazione"
@@ -2809,16 +2809,16 @@
   "PERMISSION.ShowRulerHint": "Mostra la misurazione utilizzando lo strumento righello agli altri giocatori connessi.",
   "PERMISSION.TemplateCreate": "Crea Modello di Misurazione",
   "PERMISSION.TemplateCreateHint": "Consenti agli utenti con questo ruolo di creare modelli per la misurazione dell'area di effetto.",
-  "PERMISSION.TokenCreate": "Crea Nuovi Tokens",
-  "PERMISSION.TokenCreateHint": "Consenti agli utenti con questo ruolo di posizionare token per i personaggi di loro proprietà.",
-  "PERMISSION.TokenDelete": "Elimina Tokens",
-  "PERMISSION.TokenDeleteHint": "Consenti agli utenti con questo ruolo di eliminare i token per i personaggi di loro proprietà.",
-  "PERMISSION.TokenConfigure": "Configura Impostazioni Token",
-  "PERMISSION.TokenConfigureHint": "Consenti agli utenti con questo ruolo di configurare le impostazioni per i token di loro proprietà.",
+  "PERMISSION.TokenCreate": "Crea Nuovi Segnalini",
+  "PERMISSION.TokenCreateHint": "Consenti agli utenti con questo ruolo di posizionare Segnalini per i personaggi di loro proprietà.",
+  "PERMISSION.TokenDelete": "Elimina Segnalini",
+  "PERMISSION.TokenDeleteHint": "Consenti agli utenti con questo ruolo di eliminare i Segnalini per i personaggi di loro proprietà.",
+  "PERMISSION.TokenConfigure": "Configura Impostazioni Segnalino",
+  "PERMISSION.TokenConfigureHint": "Consenti agli utenti con questo ruolo di configurare le impostazioni per i Segnalini di loro proprietà.",
   "PERMISSION.WallDoors": "Apri/Chiudi Porte",
   "PERMISSION.WallDoorsHint": "Consenti agli utenti con questo ruolo di interagire con le porte definite sul livello pareti.",
-  "PERMISSION.QueryUser": "Query Users",
-  "PERMISSION.QueryUserHint": "Allow users with this role to query other users.",
+  "PERMISSION.QueryUser": "Ricerca Utenti",
+  "PERMISSION.QueryUserHint": "Consenti agli utenti con questo ruolo di cercare altri utenti.",
   "PERMISSION.WarningNoCreate": "Non disponi di autorizzazioni sufficienti per creare un documento di tipo  {document}.",
   "REGION": {
     "ACTIONS": {
@@ -2840,40 +2840,40 @@
     "Behavior": "Comportamento",
     "EVENTS": {
       "behaviorStatus": {
-        "label": "Stato del Comportamento Modificato"
+        "label": "Comportamento modificato"
       },
       "regionBoundary": {
-        "label": "Confine della Regione Modificato"
+        "label": "Confine della Regione modificato"
       },
       "tokenEnter": {
-        "label": "Token Entra"
+        "label": "Segnalino entra"
       },
       "tokenExit": {
-        "label": "Token Esce"
+        "label": "Segnalino esce"
       },
       "tokenMove": {
-        "label": "Dopo il Movimento del Token"
+        "label": "Dopo il movimento del Segnalino"
       },
       "tokenMoveIn": {
-        "label": "Token Spostato Dentro"
+        "label": "Segnalino spostato dentro"
       },
       "tokenMoveOut": {
-        "label": "Token Spostato Fuori"
+        "label": "Segnalino spostato fuori"
       },
       "tokenPreMove": {
-        "label": "Prima del Movimento del Token"
+        "label": "Prima del movimento del segnalino"
       },
       "tokenRoundEnd": {
-        "label": "Token Termina il Round"
+        "label": "Segnalino termina il Round"
       },
       "tokenRoundStart": {
-        "label": "Token Inizia il Round"
+        "label": "Segnalino inizia il Round"
       },
       "tokenTurnEnd": {
-        "label": "Token Termina il Turno"
+        "label": "Segnalino termina il Turno"
       },
       "tokenTurnStart": {
-        "label": "Token Inizia il Turno"
+        "label": "Segnalino inizia il Turno"
       }
     },
     "FIELDS": {
@@ -3028,7 +3028,7 @@
       "pauseGame": {
         "FIELDS": {
           "once": {
-            "hint": "Disabilita il comportamento una volta che un Token controllato dal giocatore entra nella regione.",
+            "hint": "Disabilita il comportamento una volta che un Segnalino controllato dal giocatore entra nella regione.",
             "label": "Una volta"
           }
         }
@@ -3036,7 +3036,7 @@
       "teleportToken": {
         "FIELDS": {
           "destination": {
-            "hint": "La regione di destinazione in cui il Token viene teletrasportato una volta che entra nella regione.",
+            "hint": "La regione di destinazione in cui il Segnalino viene teletrasportato una volta che entra nella regione.",
             "label": "Destinazione"
           }
         }
@@ -3057,15 +3057,15 @@
   },
   "RULER.MovementNotAllowed": "La misura del percorso di movimento non è consentita",
   "RULER.MovementCollision": "Il movimento si scontra con almeno un muro.",
-  "RULER.MovementNoPermission": "Non hai il permesso di spostare questo Token.",
-  "RULER.MovementLocked": "Questo Token non può essere spostato perché è bloccato.",
+  "RULER.MovementNoPermission": "Non hai il permesso di spostare questo Segnalino.",
+  "RULER.MovementLocked": "Questo Segnalino non può essere spostato perché è bloccato.",
   "SIDEBAR.Import": "Importa Dati",
   "SIDEBAR.NavLabel": "Schede Barra Laterale",
   "SIDEBAR.TabJournal": "Diario",
   "SIDEBAR.TabCompendium": "Compendio",
   "SIDEBAR.TabSettings": "Impostazioni di Gioco",
   "SIDEBAR.TabTables": "Tabelle Dinamiche",
-  "SIDEBAR.TokenArt": "Mostra Immagine Token",
+  "SIDEBAR.TokenArt": "Mostra Immagine Segnalino",
   "SIDEBAR.SearchModeName": "Cerca solo per Nome",
   "SIDEBAR.SearchModeFull": "Ricerca Testo Completo",
   "SIDEBAR.SortModeAlpha": "Ordina Alfabeticamente",
@@ -3244,23 +3244,23 @@
     "fillColor.label": "Colore di Riempimento",
     "texture.label": "Texture di Riempimento"
   },
-  "TILE.ConfigTitle": "Configurazione Tile",
+  "TILE.ConfigTitle": "Configurazione Oggetto",
   "TILE.Dimensions": "Dimensioni",
-  "TILE.Scale": "Scala del Tile",
+  "TILE.Scale": "Scala dell'Oggetto",
   "TILE.ScaleHint": "Regola la scala dell'immagine sull'asse X o Y. L'immagine potrebbe essere più grande del suo riquadro di delimitazione. I valori negativi capovolgeranno l'immagine.",
   "TILE.OcclusionModeNone": "Nessuna (Sempre Visibile)",
-  "TILE.OcclusionModeFade": "Dissolvenza (Tutto il Tile)",
+  "TILE.OcclusionModeFade": "Dissolvenza (Tutto l'Oggetto)",
   "TILE.OcclusionModeRoof": "Tetto (Blocca Visione e Illuminazione)",
-  "TILE.OcclusionModeRadial": "Radiale (Attorno al Token)",
-  "TILE.OcclusionModeVision": "Visione (Campo Visione Token)",
+  "TILE.OcclusionModeRadial": "Radiale (Attorno al Segnalino)",
+  "TILE.OcclusionModeVision": "Visione (Campo Visione Segnalino)",
   "TILE.VideoOptions": "Opzioni Video",
   "TILE.ACTIONS": {
-    "CREATE": "Crea Tile",
-    "UPDATE": "Aggiorna Tile"
+    "CREATE": "Crea Oggetto",
+    "UPDATE": "Aggiorna Oggetto"
   },
   "TILE.SECTIONS": {
-    "position": "Regola la posizione e le dimensioni del Tile.",
-    "overhead": "Attributi aggiuntivi che si applicano se il Tile è in sovrapposizione nel Primo Piano."
+    "position": "Regola la posizione e le dimensioni dell'Oggetto.",
+    "overhead": "Attributi aggiuntivi che si applicano se l'Oggetto è in sovrapposizione in Primo Piano."
   },
   "TILE.TABS": {
     "position": "Posizione",
@@ -3270,12 +3270,12 @@
   "TILE.FIELDS": {
     "sort.label": "Ordina",
     "texture": {
-      "src.label": "Immagine o Video del Tile",
+      "src.label": "Immagine o Video dell'Oggetto",
       "scaleX.label": "Orizzontale",
       "scaleY.label": "Verticale",
       "tint.label": "Colore di Tint"
     },
-    "alpha.label": "Opacità del Tile",
+    "alpha.label": "Opacità dell'Oggetto",
     "occlusion": {
       "mode.label": "Modalità di Occlusione",
       "alpha.label": "Alpha di Occlusione"
@@ -3283,11 +3283,11 @@
     "restrictions": {
       "light": {
         "label": "Restrizioni Luce",
-        "hint": "Le fonti di luce sono bloccate in base alla loro elevazione rispetto all'elevazione di questo Tile?"
+        "hint": "Le fonti di luce sono bloccate in base alla loro elevazione rispetto all'elevazione di questo Oggetto?"
       },
       "weather": {
         "label": "Restrizioni Meteo",
-        "hint": "Gli effetti meteorologici sono bloccati in base alla loro elevazione rispetto all'elevazione di questo Tile?"
+        "hint": "Gli effetti meteorologici sono bloccati in base alla loro elevazione rispetto all'elevazione di questo Oggetto?"
       }
     },
     "video": {
@@ -3330,24 +3330,24 @@
       "abbr": "a"
     }
   },
-  "TOKEN.Assign": "Assegna Token",
-  "TOKEN.AssignWarn": "È necessario selezionare un token esistente da assegnare come nuova configurazione del prototipo.",
-  "TOKEN.AssignSuccess": "La configurazione del token prototipo è stata aggiornata per {name}",
+  "TOKEN.Assign": "Assegna Segnalino",
+  "TOKEN.AssignWarn": "È necessario selezionare un segnalino esistente da assegnare come nuova configurazione del prototipo.",
+  "TOKEN.AssignSuccess": "La configurazione del Segnalino prototipo è stata aggiornata per {name}",
   "TOKEN.BarAttributes": "Barra degli Attributi",
   "TOKEN.BarValues": "Valori Singoli",
-  "TOKEN.DeleteCombatantWarning": "You are deleting a Token that is in Combat. Its Combatant will be permanently deleted.",
+  "TOKEN.DeleteCombatantWarning": "Stai eliminando un Segnalino che si trova in un Incontro di combattimento. Il suo combattente sarà eliminato permanentemente.",
   "TOKEN.Dimensions": "Dimensioni",
-  "TOKEN.AnchorHint": "L'ancora predefinita (0,5, 0,5) è il centro dell'immagine del Token.",
-  "TOKEN.ImageAlts": "Alterna Token Del Personaggio",
+  "TOKEN.AnchorHint": "L'àncora predefinita (0,5, 0,5) è il centro dell'immagine del Segnalino.",
+  "TOKEN.ImageAlts": "Alterna Segnalino Del Personaggio",
   "TOKEN.Mirror": "Inverti Immagine",
   "TOKEN.MirrorX": "Orizzontalmente",
   "TOKEN.MirrorY": "Verticalmente",
   "TOKEN.ResourceBar1D": "Dati Barra 1",
   "TOKEN.ResourceBar2D": "Dati Barra 2",
-  "TOKEN.TitlePrototype": "Token Prototipo",
-  "TOKEN.Update": "Aggiorna Token",
-  "TOKEN.WarningNoActor": "Questo Token fa riferimento a un personaggio che non esiste più nel mondo.",
-  "TOKEN.WarningNoVision": "Non possiedi alcun Token con visione in questa scena.",
+  "TOKEN.TitlePrototype": "Segnalino Prototipo",
+  "TOKEN.Update": "Aggiorna Segnalino",
+  "TOKEN.WarningNoActor": "Questo Segnalino fa riferimento a un personaggio che non esiste più nel mondo.",
+  "TOKEN.WarningNoVision": "Non possiedi alcun Segnalino con visione in questa scena.",
   "TOKEN.TABS": {
     "identity": "Identità",
     "appearance": "Aspetto",
@@ -3383,7 +3383,7 @@
           "label": "Correzione scala soggetto"
         },
         "texture": {
-          "hint": "Specifica esplicitamente un percorso per l'arte posizionata sull'anello del token dinamico. Se non viene fornito, il soggetto dell'anello è lo stesso della texture del token standard.",
+          "hint": "Specifica esplicitamente un percorso per l'arte posizionata sull'anello del Segnalino dinamico. Se non viene fornito, il soggetto dell'anello è lo stesso della texture del Segnalino standard.",
           "label": "Texture soggetto"
         }
       }
@@ -3522,7 +3522,7 @@
       "RING_PULSE": "Pulsazione dell'anello"
     },
     "SHEET": {
-      "legend": "Anello del token dinamico"
+      "legend": "Anello del Segnalino dinamico"
     }
   },
   "TOKEN.TURNMARKER": {
@@ -4031,7 +4031,7 @@
   "COMBAT.CombatantReroll": "Ri-tira Iniziativa",
   "COMBAT.CombatantScene": "Scena Combattimento",
   "COMBAT.CombatantStatus": "Stato",
-  "COMBAT.CombatantToken": "Token Rappresentato",
+  "COMBAT.CombatantToken": "Segnalino Rappresentato",
   "COMBAT.CombatantUpdate": "Aggiorna Combattente",
   "COMBAT.Create": "Nuovo Incontro",
   "COMBAT.Delete": "Elimina Incontro",
@@ -4039,14 +4039,14 @@
   "COMBAT.EncounterNext": "Attiva Incontro Successivo",
   "COMBAT.EncounterPrevious": "Attiva Incontro Precedente",
   "COMBAT.End": "Termina Incontro",
-  "COMBAT.EndConfirmation": "Terminare l'incontro di combattimento corrente e azzerare l'indicatore dei turni?",
-  "COMBAT.EndTitle": "Terminare Incontro di Combattimento?",
+  "COMBAT.EndConfirmation": "Terminare l'incontro e azzerare l'indicatore dei turni?",
+  "COMBAT.EndTitle": "Terminare Incontro di combattimento?",
   "COMBAT.InitiativeReset": "Ripristina Iniziativa",
   "COMBAT.InitiativeRoll": "Tiro Per l'Iniziativa",
   "COMBAT.Linked": "Collegato alla scena, clic per scollegare",
-  "COMBAT.NavLabel": "Navigazione Incontri di Combattimento",
+  "COMBAT.NavLabel": "Navigazione Incontri di combattimento",
   "COMBAT.None": "Nessun Incontro",
-  "COMBAT.NoneActive": "Non c'è nessun Incontro di Combattimento nella scena visualizzata.",
+  "COMBAT.NoneActive": "Non c'è nessun Incontro di combattimento nella scena visualizzata.",
   "COMBAT.NoneRemaining": "In questo incontro non son rimasti combattenti non sconfitti.",
   "COMBAT.NotStarted": "Non Iniziato",
   "COMBAT.PanToCombatant": "Vai al Combattente",
@@ -4094,8 +4094,8 @@
   "CONTROLS.BasicMeasureFollow": "Segui il percorso",
   "CONTROLS.BasicMeasureStart": "Inizia a misurare",
   "CONTROLS.BasicMeasureWaypoints": "Posiziona punti intermedi",
-  "CONTROLS.BasicSelect": "Seleziona Tokens",
-  "CONTROLS.BasicSelectP": "Seleziona tutti i token che possiedi per vedere il loro specifico campo visivo. Se non viene selezionato nessun token, vedrai cosa possono vedere tutti i token che controlli.",
+  "CONTROLS.BasicSelect": "Seleziona Segnalini",
+  "CONTROLS.BasicSelectP": "Seleziona tutti i Segnalini che possiedi per vedere il loro specifico campo visivo. Se non viene selezionato un Segnalino, vedrai cosa possono vedere tutti i Segnalini che controlli.",
   "CONTROLS.CanvasCancel": "Annulla la Mossa in Sospeso",
   "CONTROLS.CanvasLeftDrag": "Usa lo Strumento Attivo",
   "CONTROLS.CanvasMove": "Muovi gli Oggetti",
@@ -4192,11 +4192,11 @@
   "CONTROLS.HeaderSpecialNotes": "Questi controlli sono applicabili solo durante specifiche interazioni.",
   "CONTROLS.Instructions": "Questo elenco descrive i comandi comuni della tastiera e del mouse utilizzati per controllare vari aspetti dell'ambiente Foundry Virtual Tabletop. Alcuni controlli sono disponibili solo per l'utente Game Master, evidenziati in viola chiaro.",
   "CONTROLS.KeyCopy": "Copia gli Elementi sull'Area di Gioco",
-  "CONTROLS.KeyCycle": "Cicla sui Token o Annulla Vista",
+  "CONTROLS.KeyCycle": "Cicla sui Segnalini o Annulla Vista",
   "CONTROLS.KeyDelete": "Elimina gli Oggetti Selezionati",
   "CONTROLS.KeyHighlight": "Evidenzia gli Oggetti sull'Area di Gioco",
   "CONTROLS.KeyHotbar": "Attiva Hotbar",
-  "CONTROLS.KeyMove": "Movimento Tastiera (Tokens o Tiles)",
+  "CONTROLS.KeyMove": "Movimento Tastiera (Segnalini o Oggetti)",
   "CONTROLS.KeyMoveDiag": "Movimento Diagonale",
   "CONTROLS.KeyMoveFace": "Direzione Frontale",
   "CONTROLS.KeyPan": "Ruota Area di Gioco",
@@ -4257,10 +4257,10 @@
   "CONTROLS.RegionSnap": "Quando è attivo, qualsiasi Forma che disegni su una Regione usando uno degli strumenti di Forma verrà agganciata alla griglia.",
   "CONTROLS.RightClick": "Click Destro",
   "CONTROLS.RulerMeasure": "Misura Distanza con il Righello",
-  "CONTROLS.RulerMove": "Sposta il Token sul Percorso Misurato",
+  "CONTROLS.RulerMove": "Sposta il Segnalino sul percorso misurato",
   "CONTROLS.RulerTitle": "Misurazioni Righello",
   "CONTROLS.RulerWaypoint": "Posiziona punto di misurazione",
-  "CONTROLS.RulerWhile": "mentre si misura da un Token",
+  "CONTROLS.RulerWhile": "mentre si misura da un Segnalino",
   "CONTROLS.ShiftClick": "SHIFT + Click",
   "CONTROLS.ShiftDrag": "SHIFT + Trascina",
   "CONTROLS.ShiftOrCtrlScroll": "<span class=\"reference\">SHIFT + Scorri</span> or <span class=\"reference\">CTRL + Scorri</span>",
@@ -4268,20 +4268,20 @@
   "CONTROLS.SoundClear": "Rimuovi Suoni",
   "CONTROLS.SoundDraw": "Posiziona Suono Ambientale",
   "CONTROLS.SoundPreview": "Anteprima Suoni Ambientali",
-  "CONTROLS.SoundPreviewP": "Quando attivo, posiziona il cursore su un suono ambientale per sentirlo come se il tuo token fosse in quella posizione.",
+  "CONTROLS.SoundPreviewP": "Quando attivo, posiziona il cursore su un suono ambientale per sentirlo come se il tuo Segnalino fosse in quella posizione.",
   "CONTROLS.Spacebar": "Barra Spaziatrice",
   "CONTROLS.TargetSelect": "Seleziona Bersagli",
-  "CONTROLS.TargetSelectP": "Contrassegna come Bersagli tutti i token che puoi vedere.",
+  "CONTROLS.TargetSelectP": "Contrassegna come Bersagli tutti i Segnalini che puoi vedere.",
   "CONTROLS.TileBrowser": "Sfoglia Oggetti",
   "CONTROLS.TileForeground": "Livello in Primo Piano",
   "CONTROLS.TilePlace": "Posiziona Oggetto",
   "CONTROLS.TilePlaceHeading": "Posiziona",
   "CONTROLS.TileSelect": "Seleziona Oggetti",
   "CONTROLS.Title": "Elenco Controlli di Gioco",
-  "CONTROLS.TokenHeader": "Controlli Token",
-  "CONTROLS.TokenPlaceHidden": "posiziona Token Nascosto",
-  "CONTROLS.TokenPlaceHiddenCreate": "durante la creazione di un token.",
-  "CONTROLS.TokenTarget": "Imposta Token (non in controllo) come Bersaglio",
+  "CONTROLS.TokenHeader": "Controlli Segnalini",
+  "CONTROLS.TokenPlaceHidden": "posiziona Segnalino nascosto",
+  "CONTROLS.TokenPlaceHiddenCreate": "durante la creazione di un Segnalino.",
+  "CONTROLS.TokenTarget": "Imposta Segnalino (non in controllo) come Bersaglio",
   "CONTROLS.TooltipDismiss": "Ignora il tooltip bloccato",
   "CONTROLS.TooltipLock": "Blocca tooltip",
   "CONTROLS.UndoCreateObjects": "Annullata creazione di {count} oggetti {type}.",
@@ -4395,8 +4395,8 @@
   "DOCUMENT.TableResults": "Risultati Tabella",
   "DOCUMENT.Tile": "Oggetto",
   "DOCUMENT.Tiles": "Oggetti",
-  "DOCUMENT.Token": "Token",
-  "DOCUMENT.Tokens": "Token",
+  "DOCUMENT.Token": "Segnalino",
+  "DOCUMENT.Tokens": "Segnalini",
   "DOCUMENT.TypePageFormat": "{type} {page}",
   "DOCUMENT.Update": "Aggiorna {type}",
   "DOCUMENT.UsePermissionWarn": "Non disponi dell'autorizzazione per utilizzare questo {documento}.",
@@ -4540,7 +4540,7 @@
   "KEYBINDINGS.SelectAll": "Seleziona Tutti gli Oggetti",
   "KEYBINDINGS.SendToBack": "Porta gli oggetti in secondo piano",
   "KEYBINDINGS.SwapMacroPage": "Passa alla pagina Hotbar {page}",
-  "KEYBINDINGS.Target": "Bersaglia Token",
+  "KEYBINDINGS.Target": "Bersaglia Segnalino",
   "KEYBINDINGS.ToggleCharacterSheet": "Attiva/Disattiva Scheda Personaggio",
   "KEYBINDINGS.Undo": "Annulla Ultima Azione",
   "KEYBINDINGS.Uneditable": "Associazione Non Modificabile",
@@ -4709,7 +4709,7 @@
   "SCENES.Dimensions": "Dimensioni Scena",
   "SCENES.DimensionsHint": "Le dimensioni della scena vengono impostate automaticamente in modo che corrispondano alle dimensioni dell'immagine di sfondo quando viene configurata per la prima volta un'immagine di sfondo.",
   "SCENES.DistortedDimensionsTitle": "Dimensioni Scena Distorte",
-  "SCENES.DistortedDimensionsWarning": "Hai scelto nuove dimensioni che hanno un rapporto di aspetto diverso dall'originale. Vuoi riposizionare automaticamente gli oggetti posizionati come i token? Il risultato potrebbe apparire distorto.",
+  "SCENES.DistortedDimensionsWarning": "Hai scelto nuove dimensioni che hanno un rapporto di aspetto diverso dall'originale. Vuoi riposizionare automaticamente gli oggetti posizionati come i Segnalini? Il risultato potrebbe apparire distorto.",
   "SCENES.ENVIRONMENT": {
     "BaseAmbience": "Ambiente di Base",
     "DarkAmbience": "Ambiente Scuro",
@@ -4731,7 +4731,7 @@
     "ShadowsHint": "Aumentando questo cursore, le ombre e gli elementi più scuri della scena diventano più scuri e profondi."
   },
   "SCENES.FogExplore": "Esplorazione Nebbia di Guerra",
-  "SCENES.FogExploreHint": "Tieni traccia dei progressi di esplorazione dei token, rimuovendo la nebbia di guerra per le aree che sono state esplorate. Se disabilitato, è visibile solo la posizione corrente del token e di ciascuna delle aree già esplorate.",
+  "SCENES.FogExploreHint": "Tieni traccia dei progressi di esplorazione dei Segnalini, rimuovendo la nebbia di guerra per le aree che sono state esplorate. Se disabilitato, è visibile solo la posizione corrente del Segnalino e di ciascuna delle aree già esplorate.",
   "SCENES.FogExploredColor": "Colore Nebbia Di Guerra Esplorata",
   "SCENES.FogExploredColorHint": "Colore applicato a tutte le aree della scena che sono state esplorate ma sono al di fuori dell'area di visione attuale.",
   "SCENES.FogOverlay": "Immagine Nebbia di Guerra",
@@ -4800,8 +4800,8 @@
   "SCENES.ShiftVertical": "Verticale",
   "SCENES.ShowNav": "Mostra nella Navigazione",
   "SCENES.ToggleNav": "Attiva/Disattiva Navigazione",
-  "SCENES.TokenVision": "Vista Token",
-  "SCENES.TokenVisionHint": "Limita la visibilità all'interno di questa scena in base ai token controllati e alla loro visione. Se disabilitato, l'intera scena sarà visibile.",
+  "SCENES.TokenVision": "Vista Segnalino",
+  "SCENES.TokenVisionHint": "Limita la visibilità all'interno di questa scena in base ai Segnalini controllati e alla loro visione. Se disabilitato, l'intera scena sarà visibile.",
   "SCENES.Units": "Unità",
   "SCENES.View": "Visualizza Scena",
   "SCENES.WeatherEffect": "Effetti Meteo",
@@ -4814,9 +4814,9 @@
   "SETTINGS.ColorSchemeLight": "Tema Chiaro",
   "SETTINGS.ColorSchemeN": "Schema di colori preferito",
   "SETTINGS.Configure": "Impostazioni",
-  "SETTINGS.DefaultTokenH": "Configura i valori token predefiniti per gli personaggi appena creati.",
-  "SETTINGS.DefaultTokenL": "Impostazioni Personalizzate Token",
-  "SETTINGS.DefaultTokenN": "Configurazione Token Personalizzata",
+  "SETTINGS.DefaultTokenH": "Configura i valori Segnalino predefiniti per gli personaggi appena creati.",
+  "SETTINGS.DefaultTokenL": "Impostazioni base del Segnalino",
+  "SETTINGS.DefaultTokenN": "Configurazione Segnalino personalizzata",
   "SETTINGS.DemoMode": "Modalità Demo",
   "SETTINGS.Docs": "Mostra Documentazione",
   "SETTINGS.DocsHeader": "Documentazione di Aiuto",
@@ -5243,15 +5243,15 @@
   "TIME.Seconds": "Secondi",
   "TIME.SecondsAbbreviation": "s",
   "TIME.Since": "{since} fa",
-  "TOKEN.AppendNumber": "Aggiungere il numero al nome dei Token Non Collegati?",
+  "TOKEN.AppendNumber": "Aggiungere il numero al nome dei Segnalini non collegati?",
   "TOKEN.AppendNumberHint": "Esempio: \"{name} (3)\"",
-  "TOKEN.CharActor": "Personaggio Rappresentato",
-  "TOKEN.CharLink": "Collega I Dati Del Personaggio",
+  "TOKEN.CharActor": "Personaggio rappresentato",
+  "TOKEN.CharLink": "Collega i dati del Personaggio",
   "TOKEN.CharNameplate": "Etichetta",
   "TOKEN.CharShowNameplate": "Mostra Etichetta",
   "TOKEN.Coordinates": "Coordinate",
-  "TOKEN.DimensionsHint": "Le dimensioni dei token sono arrotondate allo 0,5 più vicino allo spazio della griglia.",
-  "TOKEN.Disposition": "Atteggiamento Token",
+  "TOKEN.DimensionsHint": "Le dimensioni dei Segnalini sono arrotondate allo 0,5 più vicino allo spazio della griglia.",
+  "TOKEN.Disposition": "Atteggiamento Segnalino",
   "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_1": "Ellisse (Variante 1)",
   "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_2": "Ellisse (Variante 2)",
   "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_1": "Rettangolo (Variante 1)",
@@ -5264,23 +5264,23 @@
   "TOKEN.HeaderResources": "Risorse",
   "TOKEN.HeaderVision": "Visione",
   "TOKEN.HexagonalShape": "Forma Esagonale",
-  "TOKEN.HexagonalShapeHint": "La forma del Token su una griglia esagonale.",
+  "TOKEN.HexagonalShapeHint": "La forma del Segnalino su una griglia esagonale.",
   "TOKEN.ImageFitMode": "Modalità Adattamento Immagine",
-  "TOKEN.ImageFitModeHint": "Regola come l'immagine si adatta alle dimensioni del Token.",
+  "TOKEN.ImageFitModeHint": "Regola come l'immagine si adatta alle dimensioni del Segnalino.",
   "TOKEN.ImagePath": "Percorso Immagine",
   "TOKEN.Lock": "Blocca",
   "TOKEN.LockRotation": "Blocca Rotazione",
   "TOKEN.OcclusionRadius": "Raggio di Occultamento",
-  "TOKEN.OcclusionRadiusHint": "Quando questo Token è sotto una Piastrella che utilizza occultamento radiale, questo valore controlla la dimensione del buco che viene tagliato nella Piastrella per consentire al Token di essere visto attraverso di essa.",
-  "TOKEN.Opacity": "Opacità Token",
-  "TOKEN.PrependAdjective": "Aggiungere l'aggettivo al nome dei Token Non Collegati?",
+  "TOKEN.OcclusionRadiusHint": "Quando questo Segnalino è sotto una Piastrella che utilizza occultamento radiale, questo valore controlla la dimensione del buco che viene tagliato nella Piastrella per consentire al Segnalino di essere visto attraverso di essa.",
+  "TOKEN.Opacity": "Opacità Segnalino",
+  "TOKEN.PrependAdjective": "Aggiungere l'aggettivo al nome dei Segnalini Non Collegati?",
   "TOKEN.PrependAdjectiveHint": "Esempio: \"{name} Infuriato\"",
   "TOKEN.RandomImg": "Immagini casuali",
   "TOKEN.ResourceBar1A": "Attributo Barra 1",
   "TOKEN.ResourceBar2A": "Attributo Barra 2",
   "TOKEN.ResourceDisplay": "Visualizza Barre",
   "TOKEN.TintColor": "Colore Tinta",
-  "TOKEN.Title": "Configurazione Token",
+  "TOKEN.Title": "Configurazione Segnalino",
   "TOKEN.VisionAngle": "Angolo di Vista",
   "TOKEN.VisionAngleHint": "Angolo del cono di visione (il valore predefinito è 360).",
   "TOKEN.VisionAttenuation": "Attenuazione",
@@ -5291,11 +5291,11 @@
   "TOKEN.VisionContrast": "Contrasto",
   "TOKEN.VisionContrastHint": "Regola il contrasto dello sfondo che si trova nel raggio della sorgente di visione (Il valore predefinito è 0).",
   "TOKEN.VisionEnabled": "Visione Abilitata",
-  "TOKEN.VisionEnabledHint": "Permette al token di vedere gli spazi illuminati all'interno della sua linea di vista.",
+  "TOKEN.VisionEnabledHint": "Permette al Segnalino di vedere gli spazi illuminati all'interno della sua linea di vista.",
   "TOKEN.VisionMode": "Modalità Visione",
   "TOKEN.VisionModeHint": "Applica un effetto visivo alla visione per rappresentare i sensi speciali (il valore predefinito è Visione Base).",
   "TOKEN.VisionRange": "Distanza Visione",
-  "TOKEN.VisionRangeHint": "La distanza a cui un token può vedere senza alcuna luce.",
+  "TOKEN.VisionRangeHint": "La distanza a cui un Segnalino può vedere senza alcuna luce.",
   "TOKEN.VisionSaturation": "Saturazione",
   "TOKEN.VisionSaturationHint": "Regola la saturazione dello sfondo che si trova nel raggio della sorgente di visione (Il valore predefinito è 0).",
   "TOURS.AllTours": "Tutti i Tour",
@@ -5331,7 +5331,7 @@
   "TYPES.RegionBehavior.executeScript": "Esegui Script",
   "TYPES.RegionBehavior.pauseGame": "Metti in Pausa il Gioco",
   "TYPES.RegionBehavior.suppressWeather": "Sopprimi Meteo",
-  "TYPES.RegionBehavior.teleportToken": "Teletrasporta Token",
+  "TYPES.RegionBehavior.teleportToken": "Teletrasporta Segnalino",
   "TYPES.RegionBehavior.toggleBehavior": "Attiva/Disattiva Comportamento",
   "Tours.NavLabel": "Schede Gestione Tour",
   "WALLS.Coordinates": "Coordinate Parete",
@@ -5429,7 +5429,7 @@
   "WORLD.ResetModules": "Reimposta Moduli Attivi",
   "WORLD.SafeModeHint": "Disabilita tutti i moduli e le scene attive e interrompe la riproduzione dell'audio",
   "WORLD.Title": "Titolo Mondo",
-  "COMBAT.PingInvisibleToken": "Non puoi eseguire il ping di un token che non puoi vedere.",
+  "COMBAT.PingInvisibleToken": "Non puoi eseguire il ping di un Segnalino che non puoi vedere.",
   "COMPENDIUM.DeleteEntryWarning": "Questa voce del Compendio e i suoi dati verranno eliminati definitivamente.",
   "CONTROLS.WallSnap": "Forza Allinea a Griglia",
   "CONTROLS.WallSnapH": "Aggancia",
@@ -5492,7 +5492,7 @@
   "LIGHT.ShadowsHint": "Migliora l'intensità dei colori scuri illuminati da questa fonte di luce. Il valore predefinito per una sorgente di luce standard è 0.",
   "LIGHT.Update": "Aggiorna Sorgente Luminosa",
   "LIGHT.Vision": "Fornisce Visione",
-  "LIGHT.VisionHint": "Fornire un'ulteriore fonte di visione per i token controllati.",
+  "LIGHT.VisionHint": "Fornire un'ulteriore fonte di visione per i Segnalini controllati.",
   "LIGHT.Walls": "Vincolata da Mura",
   "LIGHT.WallsHint": "Configura se l'area d'effetto per questa sorgente di luce è vincolata dai muri vicini.",
   "MODMANAGE.UnavailableDocumentsConfirm": "Diversi documenti saranno resi non disponibili se disabiliti questo modulo, sei sicuro di voler continuare?",
@@ -5519,13 +5519,13 @@
   "PLAYLIST.PlaylistVolumeTooltip": "Regola il volume di tutte le playlist, come musica da combattimento, musica di sottofondo e soundboards.",
   "PLAYLIST.VolumeTooltip": "Volume: {volume}%",
   "SETUP.CheckCompatibility": "Verifica Compatibilità",
-  "SOUND.ConfigHint": "Configura il suono ambientale per riprodurre un file audio quando i token si spostano all'interno della sua portata.",
+  "SOUND.ConfigHint": "Configura il suono ambientale per riprodurre un file audio quando i Segnalini si spostano all'interno del suo raggio.",
   "SOUND.ConfigTitle": "Configurazione del Suono Ambientale",
   "SOUND.Create": "Crea Suono Ambientale",
   "SOUND.DarknessRange": "Gamma Attivazione Oscurità",
   "SOUND.DarknessRangeHint": "Specificare una gamma di livelli di oscurità durante la quale questo suono ambientale sarà udibile.",
   "SOUND.Easing": "Riduzione del Volume",
-  "SOUND.EasingHint": "Imposta il livello del volume del suono quando i token si avvicinano all'origine.",
+  "SOUND.EasingHint": "Imposta il livello del volume del suono quando i Segnalini si avvicinano all'origine.",
   "SOUND.MaxVol": "Volume Massimo",
   "SOUND.MaxVolHint": "Definisci il volume massimo del suono nel suo punto di origine (se viene usata la riduzione) oppure ovunque all'interno dell'area.",
   "SOUND.New": "Nuovo Suono",
