@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/bertolinimarco/foundryvtt-lang-it-it/main/it-I
 Traduzione a cura di:
 
 - Emanuele Granatello (Kaizoku Press)
-- Marco Bertolini (Aumyr)
+- Marco Bertolini
 
 ## Licenza
 
