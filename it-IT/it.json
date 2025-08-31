@@ -210,7 +210,7 @@
         "label": "Elevazione"
       },
       "path": {
-        "label": "Percorso File Sorgente",
+        "label": "File",
         "hint": "Configura il suono ambientale per riprodurre un file audio quando i Segnalini si muovono nel suo raggio."
       },
       "radius": {
@@ -588,7 +588,7 @@
               "hint": "Abilita il segnale di turno per impostazione predefinita per tutti i Segnalini."
             },
             "src": {
-              "label": "Fonte Media",
+              "label": "File",
               "hint": "Un'immagine o un file video da utilizzare per impostazione predefinita come segnale di turno del Segnalino."
             },
             "animation": {
@@ -677,7 +677,7 @@
     "BasicSelect": "Seleziona Segnalini",
     "BasicSelectP": "Seleziona qualsiasi Segnalino di tua proprietà per vedere la loro linea di vista. Quando non ci sono Segnalini selezionati, vedrai cosa possono vedere tutti i Segnalini di tua proprietà.",
     "TargetSelect": "Seleziona Bersaglio",
-    "TargetSelectP": "Rendi come bersaglio qualsiasi Segnalino che puoi vedere.",
+    "TargetSelectP": "Contrassegna come bersaglio qualsiasi Segnalino che puoi vedere.",
     "BasicMeasure": "Misura Distanza",
     "GroupMeasure": "Strumenti di Misurazione",
     "MeasureType": "Tipo di Template",
@@ -695,7 +695,7 @@
     "TileBrowser": "Sfoglia Oggetti",
     "GroupDrawing": "Strumenti di Disegno",
     "DrawingSelect": "Seleziona Disegni",
-    "DrawingRect": "Disegna Rettangolo",
+    "DrawingRect": "Rettangolo",
     "DrawingEllipse": "Disegna Ellisse",
     "DrawingPoly": "Disegna Poligono",
     "DrawingPolyP": "<span class=\"reference\">Click + Trascina</span> per iniziare poi <span class=\"reference\">Click</span> per aggiungere punti. <span class=\"reference\">Doppio Click</span> per finire.",
@@ -711,29 +711,29 @@
     "WallInvisible": "Pareti Invisibili",
     "WallInvisibleBlocks": "Movimento",
     "WallTerrain": "Pareti Terreno",
-    "WallTerrainBlocks": "Vista oltre il secondo muro, movimento e suoni",
+    "WallTerrainBlocks": "Visione oltre il secondo muro, movimento e suoni",
     "WallEthereal": "Pareti Eteree",
-    "WallEtherealBlocks": "Vista e suoni",
-    "WallDoors": "Disegna Porte",
+    "WallEtherealBlocks": "Visione e suoni",
+    "WallDoors": "Porte",
     "DoorBlocks": "Movimento, visione e suoni (se chiuse)",
     "WallSecret": "Porte Segrete",
     "WallSecretHidden": "Nascosto",
-    "WallSecretHiddenP": "Le Porte Segrete non possono essere viste dai giocatori",
-    "WallSelect": "Seleziona Pareti Rettangolari",
+    "WallSecretHiddenP": "Le Porte Segrete non possono essere viste dai Giocatori",
+    "WallSelect": "Seleziona Pareti",
     "CommonMoveWithoutSnapping": "Muovi senza aggancio alla griglia",
     "WallSelectEdit": "<span class=\"reference\">Doppio Clic</span>",
-    "WallSnapP": "I punti delle pareti si allineano al vertice della griglia più vicino quando attivi",
+    "WallSnapP": "I punti delle pareti si agganciano al vertice della griglia più vicino quando attivi",
     "WallClone": "Clona Pareti",
     "WallCloseDoors": "Chiudi tutte le Porte",
     "WallDoorsClosed": "Chiuse {number} porte",
     "WallClear": "Rimuovi tutte le Pareti",
-    "WallWindow": "Pareti Finestre",
-    "WallWindowBlocks": "Vista, movimento e suoni oltre una certa distanza",
+    "WallWindow": "Finestre",
+    "WallWindowBlocks": "Visione, movimento e suoni oltre una certa distanza",
     "GroupLighting": "Controlli Illuminazione",
     "LightDraw": "Disegna Fonte di Luce",
     "LightClear": "Rimuovi tutte le Luci",
     "LightReset": "Reimposta Nebbia di Guerra",
-    "LightResetP": "Reimposta la nebbia di guerra esplorata per tutti i giocatori in questa scena.",
+    "LightResetP": "Reimposta la nebbia di guerra esplorata per tutti i Giocatori in questa scena.",
     "LightDay": "Transizione alla Luce del Giorno",
     "MakeDayH": "Rendi Giorno",
     "MakeDayP": "Transizione fluida del livello di oscurità della scena a 0.",
@@ -743,7 +743,7 @@
     "MakeNightH": "Rendi Notte",
     "MakeNightP": "Transizione fluida del livello di oscurità della scena a 1.",
     "FOWResetTitle": "Reimposta l'Esplorazione della Nebbia di Guerra?",
-    "FOWResetDesc": "Questo reimposterà la nebbia di guerra per questa scena per tutti i giocatori.",
+    "FOWResetDesc": "Questo reimposterà la nebbia di guerra per questa scena per tutti i Giocatori.",
     "GroupSound": "Controlli Suono Ambientale",
     "SoundDraw": "Disegna Suono Ambientale",
     "SoundPreview": "Anteprima Suoni Ambientali",
@@ -873,7 +873,7 @@
     "CommonDraw": "Disegna",
     "CommonDrawProportional": "Disegna Proporzionalmente",
     "CommonPlace": "Posiziona",
-    "CommonBlocks": "Blocchi",
+    "CommonBlocks": "Impedisce",
     "CommonChain": "Collega",
     "CommonMovePoint": "Muovi Punto",
     "CommonOpenClose": "Apri/Chiudi",
@@ -1002,7 +1002,7 @@
     "FIELDS": {
       "name.label": "Nome",
       "type.label": "Tipo",
-      "img.label": "Percorso Immagine",
+      "img.label": "File",
       "description.label": "Descrizione",
       "width.label": "Larghezza",
       "height.label": "Altezza",
@@ -1031,8 +1031,8 @@
   "DRAWING.LineWidth": "Spessore Linea",
   "DRAWING.StrokeColor": "Colore Tratto",
   "DRAWING.LineOpacity": "Opacità Linea",
-  "DRAWING.SmoothingFactor": "Fattore Smusso",
-  "DRAWING.SmoothingFactorHint": "Per il disegno a mano libera, il fattore di smusso controlla la quantità di 'arrotondamento' della spline.",
+  "DRAWING.SmoothingFactor": "Fattore smussamento",
+  "DRAWING.SmoothingFactorHint": "Per il disegno a mano libera, il fattore di smussamento controlla la quantità di 'arrotondamento' della spline.",
   "DRAWING.FillTypes": "Tipi Riempimento",
   "DRAWING.FillTypeNone": "Nessuno",
   "DRAWING.FillTypeSolid": "Solido",
@@ -1046,7 +1046,7 @@
   "DRAWING.TextColor": "Colore Testo",
   "DRAWING.TextOpacity": "Opacità Testo",
   "DRAWING.Role": "Ruolo Disegno",
-  "DRAWING.RoleHint": "Un Disegno che rappresenta un \"Oggetto\" viene visualizzato nel Gruppo Canvas Primario ed è influenzato dall'illuminazione e dall'esplorazione della nebbia di guerra. Un Disegno che trasmette \"Informazioni\" viene visualizzato nel Gruppo Interfaccia ed è visibile a tutti i giocatori a meno che non sia nascosto.",
+  "DRAWING.RoleHint": "Un Disegno che rappresenta un \"Oggetto\" viene visualizzato nel Gruppo Canvas Primario ed è influenzato dall'illuminazione e dall'esplorazione della nebbia di guerra. Un Disegno che trasmette \"Informazioni\" viene visualizzato nel Gruppo Interfaccia ed è visibile a tutti i Giocatori a meno che non sia nascosto.",
   "DRAWING.Object": "Oggetto",
   "DRAWING.Information": "Informazione",
   "DRAWING.JointValidationError": "I disegni devono avere un testo visibile, un riempimento visibile o una linea visibile.",
@@ -1267,7 +1267,7 @@
     "FavoritesLabel": "Preferiti",
     "AddFavorite": "Aggiungi Cartella Corrente ai Preferiti",
     "RemoveFavorite": "Rimuovi Cartella dai Preferiti",
-    "DirectoryPathLabel": "Percorso Cartella",
+    "DirectoryPathLabel": "File",
     "FilterLabel": "Filtra Risultati",
     "S3Label": "S3 Bucket",
     "Selected": "Selezionato",
@@ -1302,19 +1302,19 @@
     }
   },
   "FONTS": {
-    "AddFont": "Aggiungi font",
+    "AddFont": "Aggiungi Font",
     "Type": "Tipo di Font",
     "TypeFile": "File",
     "TypeSystem": "Sistema",
-    "TypeHint": "I Font di tipo 'File' vengono caricati dalla tua cartella dati e scaricati dai tuoi giocatori. I Font di tipo 'Sistema' si basano sul sistema operativo di ciascun utente. I browser non possono elencarli per motivi di sicurezza, quindi devi inserire il nome esatto. Se un utente non dispone di quel font, vedrà invece un fallback.",
-    "Family": "Font Family",
-    "File": "Font File",
+    "TypeHint": "I Font di tipo 'File' vengono caricati dalla dati e scaricati dai tuoi Giocatori. I Font di tipo 'Sistema' si basano sul sistema operativo di ciascun utente. I browser non possono elencarli per motivi di sicurezza, quindi devi inserire il nome esatto. Se un utente non dispone di quel font, vedrà invece un font sostitutivo.",
+    "Family": "Famiglia Font",
+    "File": "File Font",
     "FontPreview": "Nel mezzo del cammin di nostra vita, mi ritrovai in una selva oscura.",
-    "RemoveFont": "Rimuovi font",
-    "Style": "Stile font",
-    "Weight": "Peso font",
-    "WarnNoFamily": "Devi fornire un nome di famiglia per il font.",
-    "WarnNoFile": "Devi fornire un percorso file per il font.",
+    "RemoveFont": "Rimuovi Font",
+    "Style": "Stile Font",
+    "Weight": "Peso Font",
+    "WarnNoFamily": "Devi fornire un nome di famiglia per il Font.",
+    "WarnNoFile": "Devi fornire un percorso file per il Font.",
     "Styles": {
       "Normal": "Normale",
       "Italic": "Corsivo"
@@ -1366,12 +1366,12 @@
   "JOURNAL.ModeText": "Testo",
   "JOURNAL.ModeImage": "Immagine",
   "JOURNAL.ActionShow": "Mostra ai Giocatori",
-  "JOURNAL.ActionShowSuccess": "Il contenuto di {title} è stato mostrato ai giocatori {which}.",
-  "JOURNAL.ImageOptions": "Image Options",
-  "JOURNAL.ImageShowSuccess": "L'immagine è stata mostrata ai giocatori {which}.",
+  "JOURNAL.ActionShowSuccess": "Il contenuto di {title} è stato mostrato ai Giocatori {which}.",
+  "JOURNAL.ImageOptions": "Opzioni Immagine",
+  "JOURNAL.ImageShowSuccess": "L'immagine è stata mostrata ai Giocatori {which}.",
   "JOURNAL.NavLabel": "Indice Voce di Diario",
   "JOURNAL.AddPage": "Aggiungi Pagina",
-  "JOURNAL.EditPage": "Edit Page",
+  "JOURNAL.EditPage": "Modifica Pagina",
   "JOURNAL.NextPage": "Pagina Successiva",
   "JOURNAL.PrevPage": "Pagina Precedente",
   "JOURNAL.Submit": "Salva Voce",
@@ -1390,8 +1390,8 @@
   "JOURNAL.ShowTo": "Mostra A",
   "JOURNAL.ShowEntry": "Mostra {name}",
   "JOURNAL.ShowBadPermissions": "Puoi mostrare solo le voci del diario o le pagine di tua proprietà.",
-  "JOURNAL.ShowNoPlayers": "Non ci sono altri giocatori connessi a cui mostrarlo.",
-  "JOURNAL.ShowOwnershipHint": "Aggiorna facoltativamente la proprietà di questo documento per i giocatori a cui viene mostrato. Se un giocatore ha già un livello di proprietà maggiore, non verrà declassato.",
+  "JOURNAL.ShowNoPlayers": "Non ci sono altri Giocatori connessi a cui mostrarlo.",
+  "JOURNAL.ShowOwnershipHint": "Aggiorna facoltativamente la proprietà di questo documento per i Giocatori a cui viene mostrato. Se un Giocatore ha già un livello di proprietà maggiore, non verrà declassato.",
   "JOURNAL.LockModeLocked": "Tabella dei contenuti bloccata. Click per sbloccare.",
   "JOURNAL.LockModeUnlocked": "Tabella dei contenuti sbloccata. Click per bloccare.",
   "JOURNAL.ConfigureCategories": "Configura Categorie",
@@ -1433,18 +1433,18 @@
     "ActionCategories": "Categorie Azioni",
     "AllActions": "Tutte le Azioni",
     "BoundKey": "Tasto Associato",
-    "Uneditable": "Binding Non Modificabile",
+    "Uneditable": "Associazione Non Modificabile",
     "ActionFilter": "Filtro Azioni",
     "ActionName": "Nome Azione",
-    "ResetTitle": "Ripristina Binding Predefiniti",
-    "ResetWarning": "Vuoi ripristinare tutti i binding ai loro valori predefiniti?",
-    "ResetSuccess": "Tutti i binding sono stati ripristinati ai loro valori predefiniti.",
+    "ResetTitle": "Ripristina Associazioni Predefiniti",
+    "ResetWarning": "Vuoi ripristinare tutte le associazioni ai loro valori predefiniti?",
+    "ResetSuccess": "Tutte le associazioni sono state ripristinate ai loro valori predefiniti.",
     "Conflict": "Potrebbe entrare in conflitto con {conflicts}",
     "CoreKeybindings": "Core Keybindings",
     "CoreMouse": "Core Mouse Controls",
     "Restricted": "Solo Gamemaster",
     "ReservedModifiers": "Modificatori speciali: {modifiers}",
-    "HowToEdit": "Usa {icon} o fai doppio click sul binding dei tasti per cambiare il valore.",
+    "HowToEdit": "Usa {icon} o fai doppio click sull'associazione dei tasti per cambiare il valore.",
     "CycleView": "Ciclo Vista Canvas o Azione Movimento",
     "Dismiss": "Attiva Menu / Chiudi Tutte le Finestre",
     "Pause": "Metti in Pausa il Gioco",
@@ -1538,7 +1538,7 @@
     },
     "luminosity": {
       "label": "Luminosità",
-      "hint": "Regola la luminosità di questa fonte di luce. Le luci più luminose sono meno ridotte dall'oscurità. Il valore predefinito per una fonte di luce standard è 0.5."
+      "hint": "Regola la luminosità di questa fonte di luce. Le luci più luminose sono meno attenuate dall'oscurità. Il valore predefinito per una fonte di luce standard è 0.5."
     },
     "negative": {
       "label": "È una fonte di oscurità",
@@ -1681,7 +1681,7 @@
     "sort.label": "Ordina",
     "global": {
       "label": "Visibile Globalmente",
-      "hint": "Consenti a questa nota della mappa di essere vista ovunque sulla mappa da un giocatore con permesso di visualizzarla."
+      "hint": "Consenti a questa nota della mappa di essere vista ovunque sulla mappa da un Giocatore con permesso di visualizzarla."
     },
     "texture": {
       "src.label": "Icona Voce",
@@ -1693,11 +1693,11 @@
     "textColor.label": "Colore Testo",
     "textAnchor.label": "Punto di Ancoraggio del Testo"
   },
-  "NUE.FirstLaunchBody": "Sembra che questo sia un nuovo mondo. Per iniziare, dovresti prima aggiungere ogni eventuale giocatore di cui potresti aver bisogno tramite la configurazione <a class=\"nue-tab\" data-tab=\"settings\">Gestione utenti</a>. Da lì, puoi creare per loro dei<a class=\"nue-tab\" data-tab=\"actors\">Personaggi</a>, così come qualsiasi altra persona importante che devi rappresentare. Le mappe e altri elementi visivi possono essere impostati utilizzando le<a class=\"nue-tab\" data-tab=\"scenes\">Scene</a>, mentre note e altre informazioni possono essere salvate nelle <a class=\"nue-tab\" data-tab=\"journal\">Voci del Diario</a>.",
+  "NUE.FirstLaunchBody": "Sembra che questo sia un nuovo mondo. Per iniziare, dovresti prima aggiungere ogni eventuale Giocatore di cui potresti aver bisogno tramite la configurazione <a class=\"nue-tab\" data-tab=\"settings\">Gestione utenti</a>. Da lì, puoi creare per loro dei<a class=\"nue-tab\" data-tab=\"actors\">Personaggi</a>, così come qualsiasi altra persona importante che devi rappresentare. Le mappe e altri elementi visivi possono essere impostati utilizzando le<a class=\"nue-tab\" data-tab=\"scenes\">Scene</a>, mentre note e altre informazioni possono essere salvate nelle <a class=\"nue-tab\" data-tab=\"journal\">Voci del Diario</a>.",
   "NUE.FirstLaunchHeader": "Per Iniziare",
   "NUE.FirstLaunchHint": "<i class=\"fas fa-info-circle\"></i> Questa scheda della chat può essere estratta facendo clic con il pulsante destro del mouse oppure puoi estrarre l'intera scheda della chat facendo clic con il pulsante destro del mouse sull'icona del fumetto in alto. Puoi fare la stessa cosa per estrarre anche una qualsiasi delle altre schede della barra laterale.",
   "NUE.FirstLaunchInvite": "Invita i Tuoi Giocatori",
-  "NUE.FirstLaunchInviteBody": "Quando tutto è pronto e sei pronto per invitare i tuoi giocatori, puoi inviare loro un link al tuo mondo dai<a class=\"nue-action\" data-action=\"invite\">Link di invito</a>.",
+  "NUE.FirstLaunchInviteBody": "Quando tutto è pronto e sei pronto per invitare i tuoi Giocatori, puoi inviare loro un link al tuo mondo dai<a class=\"nue-action\" data-action=\"invite\">Link di invito</a>.",
   "NUE.FirstLaunchKB": "Assicurati di esaminare tutte le schede disponibili in questa barra laterale e, per informazioni più approfondite, puoi rivedere la serie <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\">Gamemaster Tutorial</a> nella nostra <a href=\"https://foundryvtt.com/kb/\" target=\"_blank\">Knowledge Base</a>.",
   "NUE.FirstLaunchTroubleshooting": "Se la finestra Link di Invito indica che la connessione è chiusa, potrebbe essere necessario configurare il port forwarding. Puoi trovare le istruzioni su come farlo nella nostra <a href=\"https://foundryvtt.com/article/port-forwarding/\" target=\"_blank\">Port Forwarding Guide</a>. Se hai ancora bisogno di aiuto, puoi unirti al nostro Discord e inserire un post su <a href=\"https://discord.com/channels/170995199584108546/689889940590690323\" target=\"_blank\">#install-and-connection</a> per problemi sugli inviti, <a href=\"https://discord.com/channels/170995199584108546/486930822465716249\" target=\"_blank\">#troubleshooting</a> per problemi generali sul software, o <a href=\"https://discord.com/channels/170995199584108546/713259405667205193\" target=\"_blank\">#core-how-to</a> per cercare come fare qualcosa in Foundry VTT.",
   "PLAYERS": {
@@ -1769,7 +1769,7 @@
   "PLAYLIST_SOUND.Update": "Aggiorna Traccia",
   "PLAYLIST_SOUND.FIELDS": {
     "name.label": "Nome Traccia",
-    "path.label": "Fonte Audio",
+    "path.label": "File",
     "channel.label": "Canale Audio",
     "volume.label": "Volume Suono",
     "repeat.label": "Ripeti",
@@ -2017,7 +2017,7 @@
         "hint": "Una password amministratore viene utilizzata per proteggere l'accesso a quest'area di Configurazione e Impostazione di Foundry Virtual Tabletop. È fortemente consigliato impostare una password amministratore per il tuo server."
       },
       "dataPath": {
-        "label": "Percorso Dati Utente",
+        "label": "Posizione Dati Utente",
         "hint": "Configura la posizione in cui vengono memorizzati i dati utente, inclusi mondi, sistemi e moduli."
       },
       "telemetry": {
@@ -2063,7 +2063,7 @@
       },
       "sslKey.label": "Chiave",
       "awsConfig": {
-        "label": "Percorso Configurazione AWS",
+        "label": "Posizione Configurazione AWS",
         "hint": "Puoi fornire un file di configurazione AWS per l'integrazione S3. Il percorso è assoluto o relativo alla sottocartella Config dei dati utente."
       },
       "fullscreen": {
@@ -2133,7 +2133,7 @@
   "SETTINGS.TokenAutoRotateN": "Rotazione Automatica del Segnalino",
   "SETTINGS.TokenAutoRotateL": "Quando abilitato, i Segnalini vengono automaticamente ruotati nella direzione del movimento per impostazione predefinita. Indipendentemente da questa impostazione, l'impostazione di Blocco Rotazione sui singoli Segnalini impedirà comunque la loro rotazione visiva.",
   "SETTINGS.TokenDragPreviewN": "Vista Segnalino durante il trascinamento",
-  "SETTINGS.TokenDragPreviewL": "Quando abilitato, la vista e l'illuminazione di un Segnalino vengono mostrate in anteprima in tempo reale durante il trascinamento tramite clic sinistro. Viene disabilitato di default perché potrebbe promuovere comportamenti di meta-gioco indesiderati.",
+  "SETTINGS.TokenDragPreviewL": "Quando abilitato, la visione e l'illuminazione di un Segnalino vengono mostrate in tempo reale durante il trascinamento tramite clic sinistro. Viene disabilitato di default perché potrebbe promuovere comportamenti di meta-gioco indesiderati.",
   "SETTINGS.PrototypeTokenOverrides": {
     "Name": "Override dei Segnalini Prototipo",
     "Label": "Configura gli Override del Segnalino Prototipo",
@@ -2695,7 +2695,7 @@
         "verified.label": "Versione Verificata",
         "maximum.label": "Versione Massima"
       },
-      "dataPath.label": "Percorso Dati"
+      "dataPath.label": "File Dati"
     }
   },
   "PACKAGECONFIG": {
@@ -2844,9 +2844,9 @@
   "PERMISSION.SettingsModify": "Mod. config. Gioco",
   "PERMISSION.SettingsModifyHint": "Consenti agli utenti con questo ruolo di modificare le impostazioni di gioco e abilitare o disabilitare i moduli.",
   "PERMISSION.ShowCursor": "Visualizza Cursore del Mouse",
-  "PERMISSION.ShowCursorHint": "Mostra la posizione del cursore del mouse del giocatore che visualizza dove l'utente sta guardando.",
+  "PERMISSION.ShowCursorHint": "Mostra la posizione del cursore del mouse del Giocatore che visualizza dove l'utente sta guardando.",
   "PERMISSION.ShowRuler": "Visualizza Righello di misurazione",
-  "PERMISSION.ShowRulerHint": "Mostra la misurazione utilizzando lo strumento righello agli altri giocatori connessi.",
+  "PERMISSION.ShowRulerHint": "Mostra la misurazione utilizzando lo strumento righello agli altri Giocatori connessi.",
   "PERMISSION.TemplateCreate": "Crea Modello di Misurazione",
   "PERMISSION.TemplateCreateHint": "Consenti agli utenti con questo ruolo di creare modelli per la misurazione dell'area di effetto.",
   "PERMISSION.TokenCreate": "Crea Nuovi Segnalini",
@@ -3475,7 +3475,7 @@
       "hint": "Impedisce che l'angolo di rotazione di questo Segnalino venga visualizzato sulla Tela."
     },
     "texture": {
-      "src.label": "Percorso Immagine",
+      "src.label": "File",
       "fit": {
         "label": "Modalità Adattamento Immagine",
         "hint": "Regola come l'immagine si adatta alle dimensioni del Segnalino."
@@ -3559,7 +3559,7 @@
         "hint": "Scegli uno stile di animazione per il segnalino di turno di questo Token."
       },
       "src": {
-        "label": "Fonte (media)",
+        "label": "File",
         "hint": "Scegli un'immagine o un file video utilizzato per il segnalino di turno di questo Token."
       },
       "disposition": {
@@ -3814,19 +3814,19 @@
     "FIELDS": {
       "name": {
         "label": "Nome Giocatore",
-        "hint": "I nomi dei giocatori devono essere configurati dal Game Master e possono essere modificati nella schermata di Gestione Utenti."
+        "hint": "I nomi dei Giocatori devono essere configurati dal Gamemaster e possono essere modificati nella schermata di Gestione Utenti."
       },
       "avatar": {
         "label": "Avatar Giocatore",
-        "hint": "Un avatar del giocatore viene visualizzato durante la chat audio/video integrata o può essere visualizzato dai moduli."
+        "hint": "Un avatar del Giocatore viene visualizzato durante la chat audio/video integrata o può essere visualizzato dai moduli."
       },
       "color": {
         "label": "Colore Giocatore",
-        "hint": "Il colore del giocatore viene utilizzato per cursori, righelli, modelli e altri elementi che differenziano tra gli utenti."
+        "hint": "Il colore del Giocatore viene utilizzato per cursori, righelli, modelli e altri elementi che differenziano tra gli utenti."
       },
       "pronouns": {
         "label": "Pronomi Giocatore",
-        "hint": "Pronomi che indicano come questo giocatore desidera essere chiamato in terza persona."
+        "hint": "Pronomi che indicano come questo Giocatore desidera essere chiamato in terza persona."
       },
       "character": {
         "label": "Personaggio Giocatore",
@@ -4050,7 +4050,7 @@
         },
         "dockPosition.label": "Posizione Dock",
         "nameplates.label": "Nome Giocatore",
-        "borderColors.label": "Usa i colori del bordo del giocatore",
+        "borderColors.label": "Usa i colori del bordo del Giocatore",
         "videoSrc": {
           "label": "Dispositivo di Acquisizione",
           "hint": "Seleziona quale dispositivo di acquisizione video desideri utilizzare, se disponibile."
@@ -4090,7 +4090,7 @@
     "ResetModules": "Resetta Moduli Attivi",
     "FIELDS": {
       "title.label": "Titolo Mondo",
-      "id.label": "Percorso Dati",
+      "id.label": "File",
       "system.label": "Sistema di Gioco",
       "background.label": "Immagine di Sfondo",
       "joinTheme.label": "Tema Pagina di Unione",
